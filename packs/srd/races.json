@@ -1,0 +1,602 @@
+[
+  {
+    "data": {
+      "abilityMods": {
+        "cha": -2,
+        "con": 2
+      },
+      "bonusLanguages": "Giant, Gnome, Goblin, Orc, Terran, and Undercommon",
+      "favoredClassId": "srd:class:fighter",
+      "la": 0,
+      "size": "medium",
+      "speedFt": 20,
+      "traits": [
+        {
+          "description": "Dwarf base land speed is 20 feet. However, dwarves can move at this speed even when wearing medium or heavy armor or when carrying a medium or heavy load (unlike other creatures, whose speed is reduced in such situations).",
+          "effects": [],
+          "name": "Speed"
+        },
+        {
+          "description": "Darkvision out to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and dwarves can function just fine with no light at all.",
+          "effects": [],
+          "name": "Darkvision"
+        },
+        {
+          "description": "This ability grants a dwarf a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. A dwarf who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching. A dwarf can use the Search skill to find stonework traps as a rogue can. A dwarf can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "Steinarbeiten",
+              "target": "skill:srd:skill:search",
+              "value": 2
+            }
+          ],
+          "name": "Stonecunning"
+        },
+        {
+          "description": "Dwarves may treat dwarven waraxes and dwarven urgroshes as martial weapons, rather than exotic weapons.",
+          "effects": [],
+          "name": "Weapon Familiarity"
+        },
+        {
+          "description": "A dwarf gains a +4 bonus on ability checks made to resist being bull rushed or tripped when standing on the ground (but not when climbing, flying, riding, or otherwise not standing firmly on the ground).",
+          "effects": [],
+          "name": "Stability"
+        },
+        {
+          "description": "+2 racial bonus on saving throws against poison.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "gegen Gift",
+              "target": "save.all",
+              "value": 2
+            }
+          ],
+          "name": "Poison Resistance"
+        },
+        {
+          "description": "+2 racial bonus on saving throws against spells and spell-like effects.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "gegen Zauber und zauberähnliche Effekte",
+              "target": "save.all",
+              "value": 2
+            }
+          ],
+          "name": "Spell Resistance"
+        },
+        {
+          "description": "+1 racial bonus on attack rolls against orcs and goblinoids.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "gegen Orks und Goblinoide",
+              "target": "attack.all",
+              "value": 1
+            }
+          ],
+          "name": "Attack Bonus vs. Orcs and Goblinoids"
+        },
+        {
+          "description": "+4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it's caught flat-footed, it loses its dodge bonus, too.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "dodge",
+              "condition": "gegen Riesen",
+              "target": "ac",
+              "value": 4
+            }
+          ],
+          "name": "Dodge Bonus vs. Giants"
+        },
+        {
+          "description": "+2 racial bonus on Appraise checks that are related to stone or metal items.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "Stein/Metall",
+              "target": "skill:srd:skill:appraise",
+              "value": 2
+            }
+          ],
+          "name": "Stone and Metal Appraisal"
+        },
+        {
+          "description": "+2 racial bonus on Craft checks that are related to stone or metal.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "Stein/Metall",
+              "target": "skill:srd:skill:craft",
+              "value": 2
+            }
+          ],
+          "name": "Stone and Metal Craftsmanship"
+        }
+      ]
+    },
+    "description": "Dwarves are known for their skill in warfare, their ability to withstand physical and magical punishment, their knowledge of the earth's secrets, their hard work, and their capacity for drinking ale. Most dwarves are lawful good, live in kingdoms deep under mountains, and revere Moradin, the Soul Forger.",
+    "effects": [],
+    "id": "srd:race:dwarf",
+    "kind": "race",
+    "name": "Dwarf",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "abilityMods": {
+        "con": -2,
+        "dex": 2
+      },
+      "bonusLanguages": "Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan",
+      "favoredClassId": "srd:class:wizard",
+      "la": 0,
+      "size": "medium",
+      "speedFt": 30,
+      "traits": [
+        {
+          "description": "Immunity to magic sleep effects.",
+          "effects": [],
+          "name": "Immunity to Sleep"
+        },
+        {
+          "description": "+2 racial saving throw bonus against enchantment spells or effects.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "gegen Verzauberungen",
+              "target": "save.all",
+              "value": 2
+            }
+          ],
+          "name": "Enchantment Resistance"
+        },
+        {
+          "description": "An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.",
+          "effects": [],
+          "name": "Low-Light Vision"
+        },
+        {
+          "description": "Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats.",
+          "effects": [],
+          "name": "Weapon Proficiency"
+        },
+        {
+          "description": "+2 racial bonus on Listen, Search, and Spot checks.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:listen",
+              "value": 2
+            },
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:search",
+              "value": 2
+            },
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:spot",
+              "value": 2
+            }
+          ],
+          "name": "Keen Senses"
+        },
+        {
+          "description": "An elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it.",
+          "effects": [],
+          "name": "Secret Door Detection"
+        }
+      ]
+    },
+    "description": "Elves mingle freely in human lands, always welcome yet never at home there. They are well known for their poetry, dance, song, lore, and magical arts, and they favor things of natural and simple beauty. Most elves are chaotic good, live in woodland clans, and revere Corellon Larethian, Protector and Preserver of Life.",
+    "effects": [],
+    "id": "srd:race:elf",
+    "kind": "race",
+    "name": "Elf",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "abilityMods": {
+        "con": 2,
+        "str": -2
+      },
+      "bonusLanguages": "Draconic, Dwarven, Elven, Giant, Goblin, and Orc",
+      "favoredClassId": "srd:class:bard",
+      "la": 0,
+      "size": "small",
+      "speedFt": 20,
+      "traits": [
+        {
+          "description": "A gnome can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.",
+          "effects": [],
+          "name": "Low-Light Vision"
+        },
+        {
+          "description": "Gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.",
+          "effects": [],
+          "name": "Weapon Familiarity"
+        },
+        {
+          "description": "+2 racial bonus on saving throws against illusions.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "gegen Illusionen",
+              "target": "save.all",
+              "value": 2
+            }
+          ],
+          "name": "Illusion Resistance"
+        },
+        {
+          "description": "+1 racial bonus on attack rolls against kobolds and goblinoids.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "gegen Kobolde und Goblinoide",
+              "target": "attack.all",
+              "value": 1
+            }
+          ],
+          "name": "Attack Bonus vs. Kobolds and Goblinoids"
+        },
+        {
+          "description": "+4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it's caught flat-footed, it loses its dodge bonus, too.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "dodge",
+              "condition": "gegen Riesen",
+              "target": "ac",
+              "value": 4
+            }
+          ],
+          "name": "Dodge Bonus vs. Giants"
+        },
+        {
+          "description": "+2 racial bonus on Listen checks.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:listen",
+              "value": 2
+            }
+          ],
+          "name": "Keen Ears"
+        },
+        {
+          "description": "+2 racial bonus on Craft (alchemy) checks.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "Alchemie",
+              "target": "skill:srd:skill:craft",
+              "value": 2
+            }
+          ],
+          "name": "Alchemy Bonus"
+        },
+        {
+          "description": "Add +1 to the Difficulty Class for all saving throws against illusion spells cast by gnomes. This adjustment stacks with those from similar effects.",
+          "effects": [],
+          "name": "Illusion Affinity"
+        },
+        {
+          "description": "1/day — speak with animals (burrowing mammal only, duration 1 minute). A gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day — dancing lights, ghost sound, prestidigitation. Caster level 1st; save DC 10 + gnome's Cha modifier + spell level.",
+          "effects": [],
+          "name": "Spell-Like Abilities"
+        }
+      ]
+    },
+    "description": "Gnomes are welcome everywhere as technicians, alchemists, and inventors, and they are known for their great love of jokes and pranks. Most gnomes are neutral good, live in burrows beneath rolling, wooded hills, and revere Garl Glittergold, the Watchful Protector.",
+    "effects": [],
+    "id": "srd:race:gnome",
+    "kind": "race",
+    "name": "Gnome",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "abilityMods": {},
+      "bonusLanguages": "Any (other than secret languages, such as Druidic)",
+      "favoredClassId": "any",
+      "la": 0,
+      "size": "medium",
+      "speedFt": 30,
+      "traits": [
+        {
+          "description": "Immunity to sleep spells and similar magical effects.",
+          "effects": [],
+          "name": "Immunity to Sleep"
+        },
+        {
+          "description": "+2 racial bonus on saving throws against enchantment spells or effects.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "gegen Verzauberungen",
+              "target": "save.all",
+              "value": 2
+            }
+          ],
+          "name": "Enchantment Resistance"
+        },
+        {
+          "description": "A half-elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.",
+          "effects": [],
+          "name": "Low-Light Vision"
+        },
+        {
+          "description": "+1 racial bonus on Listen, Search, and Spot checks.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:listen",
+              "value": 1
+            },
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:search",
+              "value": 1
+            },
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:spot",
+              "value": 1
+            }
+          ],
+          "name": "Keen Senses"
+        },
+        {
+          "description": "+2 racial bonus on Diplomacy and Gather Information checks.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:diplomacy",
+              "value": 2
+            },
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:gather-information",
+              "value": 2
+            }
+          ],
+          "name": "Diplomatic"
+        },
+        {
+          "description": "For all effects related to race, a half-elf is considered an elf.",
+          "effects": [],
+          "name": "Elven Blood"
+        }
+      ]
+    },
+    "description": "Half-elves have the curiosity and ambition of their human parent and the refined senses and love of nature of their elven parent, although they are not truly accepted by either society. Most half-elves do well among both humans and elves, and many serve as diplomats or go-betweens.",
+    "effects": [],
+    "id": "srd:race:half-elf",
+    "kind": "race",
+    "name": "Half-Elf",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "abilityMods": {
+        "cha": -2,
+        "int": -2,
+        "str": 2
+      },
+      "bonusLanguages": "Draconic, Giant, Gnoll, Goblin, and Abyssal",
+      "favoredClassId": "srd:class:barbarian",
+      "la": 0,
+      "size": "medium",
+      "speedFt": 30,
+      "traits": [
+        {
+          "description": "Darkvision out to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and half-orcs can function just fine with no light at all.",
+          "effects": [],
+          "name": "Darkvision"
+        },
+        {
+          "description": "For all effects related to race, a half-orc is considered an orc.",
+          "effects": [],
+          "name": "Orc Blood"
+        }
+      ]
+    },
+    "description": "Half-orcs are the offspring of humans and orcs, combining human versatility with orcish might. In the wild frontiers, tribes of human and orc barbarians live in uneasy balance, and half-orcs make their way through strength and endurance where they are welcome in neither society. A half-orc's starting Intelligence score is always at least 3.",
+    "effects": [],
+    "id": "srd:race:half-orc",
+    "kind": "race",
+    "name": "Half-Orc",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "abilityMods": {
+        "dex": 2,
+        "str": -2
+      },
+      "bonusLanguages": "Dwarven, Elven, Gnome, Goblin, and Orc",
+      "favoredClassId": "srd:class:rogue",
+      "la": 0,
+      "size": "small",
+      "speedFt": 20,
+      "traits": [
+        {
+          "description": "+2 racial bonus on Climb, Jump, and Move Silently checks.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:climb",
+              "value": 2
+            },
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:jump",
+              "value": 2
+            },
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:move-silently",
+              "value": 2
+            }
+          ],
+          "name": "Nimble"
+        },
+        {
+          "description": "+1 racial bonus on all saving throws.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "save.all",
+              "value": 1
+            }
+          ],
+          "name": "Halfling Luck"
+        },
+        {
+          "description": "+2 morale bonus on saving throws against fear. This bonus stacks with the halfling's +1 bonus on saving throws in general.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "morale",
+              "condition": "gegen Furcht",
+              "target": "save.all",
+              "value": 2
+            }
+          ],
+          "name": "Fearless"
+        },
+        {
+          "description": "+1 racial bonus on attack rolls with thrown weapons and slings.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "condition": "mit geworfenen Waffen und Schleudern",
+              "target": "attack.all",
+              "value": 1
+            }
+          ],
+          "name": "Thrown Weapon Skill"
+        },
+        {
+          "description": "+2 racial bonus on Listen checks.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "racial",
+              "target": "skill:srd:skill:listen",
+              "value": 2
+            }
+          ],
+          "name": "Keen Ears"
+        }
+      ]
+    },
+    "description": "Halflings are clever, capable opportunists. Ever curious, they wander the lands as tinkers, traders, and entertainers, relying on wit, luck, and nimbleness to see them through. Most halflings are neutral, travel in close-knit clans, and revere Yondalla, the Blessed One.",
+    "effects": [],
+    "id": "srd:race:halfling",
+    "kind": "race",
+    "name": "Halfling",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "abilityMods": {},
+      "bonusLanguages": "Any (other than secret languages, such as Druidic)",
+      "favoredClassId": "any",
+      "la": 0,
+      "size": "medium",
+      "speedFt": 30,
+      "traits": [
+        {
+          "description": "1 extra feat at 1st level, because humans are quick to master specialized tasks and varied in their talents.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "untyped",
+              "target": "feats.slots",
+              "value": 1
+            }
+          ],
+          "name": "Bonus Feat"
+        },
+        {
+          "description": "4 extra skill points at 1st level and 1 extra skill point at each additional level, since humans are versatile and capable.",
+          "effects": [
+            {
+              "activation": "passive",
+              "bonusType": "untyped",
+              "target": "skills.pointsPerLevel",
+              "value": 1
+            }
+          ],
+          "name": "Skilled"
+        }
+      ]
+    },
+    "description": "Humans are the most adaptable, flexible, and ambitious people among the common races. They are diverse in their tastes, morals, customs, and habits, and their short lives drive them to achieve as much as they can in the years they are given.",
+    "effects": [],
+    "id": "srd:race:human",
+    "kind": "race",
+    "name": "Human",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [],
+    "updatedAt": ""
+  }
+]

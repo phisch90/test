@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "class": 40,
+    "condition": 29,
+    "feat": 327,
+    "item": 1866,
+    "race": 7,
+    "skill": 40,
+    "spell": 696,
+    "spelllist": 45
+  },
+  "files": [
+    "classes-1.json",
+    "classes-2.json",
+    "conditions.json",
+    "feats-1.json",
+    "feats-2.json",
+    "items-1.json",
+    "items-2.json",
+    "items-3.json",
+    "items-4.json",
+    "items-5.json",
+    "races.json",
+    "skills.json",
+    "spelllists.json",
+    "spells-1.json",
+    "spells-2.json",
+    "spells-3.json",
+    "spells-4.json"
+  ],
+  "srdRev": 1
+}

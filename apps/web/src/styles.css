@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Codex35-Grundstimmung: dunkel fürs Spieltisch-Licht, hell möglich. */
+:root {
+  color-scheme: dark light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    @apply bg-slate-100 text-slate-900;
+  }
+}
+
+/* Breite Tabellen scrollen im eigenen Container, nie die Seite. */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Tap-Ziele am Tisch: großzügig. */
+button,
+[role="button"] {
+  touch-action: manipulation;
+}

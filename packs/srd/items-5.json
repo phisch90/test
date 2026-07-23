@@ -1,0 +1,658 @@
+[
+  {
+    "data": {
+      "category": "wondrous",
+      "costGp": 5500,
+      "magicText": "Aura: Faint evocation; CL: 5; Price: 5,500 gp; Prerequisites: Craft Wondrous Item, gust of wind"
+    },
+    "description": "**Wind Fan:** A *wind fan* appears to be nothing more than a wood and papyrus or cloth instrument with which to create a cooling breeze. By uttering the command word, its possessor causes the fan to generate air movement duplicating a *gust of wind* spell. The fan can be used once per day with no risk. If it is used more frequently, there is a 20% cumulative chance per usage during that day that the device tears into useless, nonmagical tatters.\n\nFaint evocation; CL 5th; Craft Wondrous Item, *gust of wind*; Price 5,500 gp.",
+    "effects": [],
+    "id": "srd:item:wind-fan",
+    "kind": "item",
+    "name": "Wind Fan",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 1650,
+      "magicText": "Price: 1,650 gp"
+    },
+    "effects": [],
+    "id": "srd:item:wind-walk",
+    "kind": "item",
+    "name": "Wind Walk",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "divine"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 375,
+      "magicText": "Price: 375 gp"
+    },
+    "effects": [],
+    "id": "srd:item:wind-wall",
+    "kind": "item",
+    "name": "Wind Wall",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "arcane"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 375,
+      "magicText": "Price: 375 gp"
+    },
+    "effects": [],
+    "id": "srd:item:wind-wall-scroll-divine",
+    "kind": "item",
+    "name": "Wind Wall",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "divine"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "gear",
+      "costGp": 0.2,
+      "weightLb": 6
+    },
+    "effects": [],
+    "id": "srd:item:wine-common-pitcher",
+    "kind": "item",
+    "name": "Wine, Common (pitcher)",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "mundane"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "gear",
+      "costGp": 10
+    },
+    "effects": [],
+    "id": "srd:item:wine-fine-bottle",
+    "kind": "item",
+    "name": "Wine, Fine (bottle)",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "mundane"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "magic",
+      "costGp": 17257,
+      "magicText": "Aura: Faint transmutation; CL: 5; Price: 17,257 gp; Cost: 8,628 gp and 5 sp + 690 XP; Prerequisites: Craft Magic Arms and Armor, fly"
+    },
+    "description": "**Winged Shield:** This round heavy wooden shield has a +3 enhancement bonus. Small, feathered wings encircle the shield.\n\nOnce per day it can be commanded to *fly* (as the spell), carrying the wielder. The shield can carry up to 133 pounds and move at 60 feet per round, or up to 266 pounds and move at 40 feet per round.\n\nFaint transmutation; CL 5th; Craft Magic Arms and Armor, *fly*; Price 17,257 gp; Cost 8,628 gp and 5 sp + 690 XP.",
+    "effects": [],
+    "id": "srd:item:winged-shield",
+    "kind": "item",
+    "name": "Winged Shield",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "shield"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "wondrous",
+      "costGp": 54000,
+      "magicText": "Aura: Moderate transmutation; CL: 10; Price: 54,000 gp; Prerequisites: Craft Wondrous Item, fly",
+      "weightLb": 2
+    },
+    "description": "**Wings of Flying:** A pair of these wings might appear to be nothing more than a plain cloak of old, black cloth, or they could be as elegant as a long cape of blue feathers. When the wearer speaks the command word, the cloak turns into a pair of bat or bird wings that empower her to fly with a speed of 60 feet (good maneuverability).\n\nModerate transmutation; CL 10th; Craft Wondrous Item, *fly*; Price 54,000 gp; Weight 2 lb.",
+    "effects": [],
+    "id": "srd:item:wings-of-flying",
+    "kind": "item",
+    "name": "Wings of Flying",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "staff",
+      "costGp": 292500,
+      "magicText": "CL: 24; Price: 292,500 gp; Prerequisites: Craft Staff, Craft Epic Staff, Extend Spell, Intensify Spell, cone of cold, ice storm, freezing sphere, wall of ice"
+    },
+    "description": "**Winter:** This staff allows the use of the following spells.\n\n- *Cone of cold* (intensified, 2 charges, DC 28)\n\n- *Ice storm* (intensified, 2 charges, DC 26)\n\n- *Freezing sphere* (intensified, 2 charges, DC 29)\n\n- *Wall of ice* (1 charge)\n\n*Caster Level:* 24th; *Prerequisites:* Craft Staff, Craft Epic Staff, Extend Spell, Intensify Spell, *cone of cold*, *ice storm*, *freezing sphere*, *wall of ice; Market Price:* 292,500 gp.",
+    "effects": [],
+    "id": "srd:item:winter",
+    "kind": "item",
+    "name": "Winter",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 28825,
+      "magicText": "Price: 28,825 gp"
+    },
+    "effects": [],
+    "id": "srd:item:wish",
+    "kind": "item",
+    "name": "Wish",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "arcane"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 25000,
+      "magicText": "Aura: Strong necromancy; CL: 13; Price: 25,000 gp; Prerequisites: Craft Rod, Craft Magic Arms and Armor, contagion"
+    },
+    "description": "**Withering:** A *rod of withering* acts as a *+1 light mace* that deals no hit point damage. Instead, the wielder deals 1d4 points of Strength damage and 1d4 points of Constitution damage to any creature she touches with the rod (by making a melee touch attack). If she scores a critical hit, the damage from that hit is permanent ability drain. In either case, the defender negates the effect with a DC 17 Fortitude save.\n\nStrong necromancy; CL 13th; Craft Rod, Craft Magic Arms and Armor, *contagion*; Price 25,000 gp.",
+    "effects": [],
+    "id": "srd:item:withering",
+    "kind": "item",
+    "name": "Withering",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "ring",
+      "costGp": 20000,
+      "magicText": "Aura: Moderate (wizardry I) or strong (wizardry II-IV) (no school); CL: 11; Price: 20,000 gp; Prerequisites: Forge Ring, limited wish"
+    },
+    "description": "**Wizardry:** This special ring comes in four kinds (*ring of wizardry I*, *ring of wizardry II*, *ring of wizardry III*, and *ring of wizardry IV*), all of them useful only to arcane spellcasters. The wearer's arcane spells per day are doubled for one specific spell level. A *ring of wizardry I* doubles 1st-level spells, a *ring of wizardry II* doubles 2nd-level spells, a *ring of wizardry III* doubles 3rd-level spells, and a *ring of wizardry IV* doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled.\n\nModerate (*wizardry I*) or strong (*wizardry II-IV*) (no school); CL 11th (*I*), 14th (*II*), 17th (*III*), 20th (*IV*); Forge Ring, *limited wish*; Price 20,000 gp (*I*), 40,000 gp (*II*), 70,000 gp (*III*), 100,000 gp (*IV*).",
+    "effects": [],
+    "id": "srd:item:wizardry-i",
+    "kind": "item",
+    "name": "Wizardry I",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "ring",
+      "costGp": 40000,
+      "magicText": "Aura: Moderate (wizardry I) or strong (wizardry II-IV) (no school); CL: 11; Price: 40,000 gp; Prerequisites: Forge Ring, limited wish"
+    },
+    "description": "**Wizardry:** This special ring comes in four kinds (*ring of wizardry I*, *ring of wizardry II*, *ring of wizardry III*, and *ring of wizardry IV*), all of them useful only to arcane spellcasters. The wearer's arcane spells per day are doubled for one specific spell level. A *ring of wizardry I* doubles 1st-level spells, a *ring of wizardry II* doubles 2nd-level spells, a *ring of wizardry III* doubles 3rd-level spells, and a *ring of wizardry IV* doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled.\n\nModerate (*wizardry I*) or strong (*wizardry II-IV*) (no school); CL 11th (*I*), 14th (*II*), 17th (*III*), 20th (*IV*); Forge Ring, *limited wish*; Price 20,000 gp (*I*), 40,000 gp (*II*), 70,000 gp (*III*), 100,000 gp (*IV*).",
+    "effects": [],
+    "id": "srd:item:wizardry-ii",
+    "kind": "item",
+    "name": "Wizardry II",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "ring",
+      "costGp": 70000,
+      "magicText": "Aura: Moderate (wizardry I) or strong (wizardry II-IV) (no school); CL: 11; Price: 70,000 gp; Prerequisites: Forge Ring, limited wish"
+    },
+    "description": "**Wizardry:** This special ring comes in four kinds (*ring of wizardry I*, *ring of wizardry II*, *ring of wizardry III*, and *ring of wizardry IV*), all of them useful only to arcane spellcasters. The wearer's arcane spells per day are doubled for one specific spell level. A *ring of wizardry I* doubles 1st-level spells, a *ring of wizardry II* doubles 2nd-level spells, a *ring of wizardry III* doubles 3rd-level spells, and a *ring of wizardry IV* doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled.\n\nModerate (*wizardry I*) or strong (*wizardry II-IV*) (no school); CL 11th (*I*), 14th (*II*), 17th (*III*), 20th (*IV*); Forge Ring, *limited wish*; Price 20,000 gp (*I*), 40,000 gp (*II*), 70,000 gp (*III*), 100,000 gp (*IV*).",
+    "effects": [],
+    "id": "srd:item:wizardry-iii",
+    "kind": "item",
+    "name": "Wizardry III",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "ring",
+      "costGp": 100000,
+      "magicText": "Aura: Moderate (wizardry I) or strong (wizardry II-IV) (no school); CL: 11; Price: 100,000 gp; Prerequisites: Forge Ring, limited wish"
+    },
+    "description": "**Wizardry:** This special ring comes in four kinds (*ring of wizardry I*, *ring of wizardry II*, *ring of wizardry III*, and *ring of wizardry IV*), all of them useful only to arcane spellcasters. The wearer's arcane spells per day are doubled for one specific spell level. A *ring of wizardry I* doubles 1st-level spells, a *ring of wizardry II* doubles 2nd-level spells, a *ring of wizardry III* doubles 3rd-level spells, and a *ring of wizardry IV* doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled.\n\nModerate (*wizardry I*) or strong (*wizardry II-IV*) (no school); CL 11th (*I*), 14th (*II*), 17th (*III*), 20th (*IV*); Forge Ring, *limited wish*; Price 20,000 gp (*I*), 40,000 gp (*II*), 70,000 gp (*III*), 100,000 gp (*IV*).",
+    "effects": [],
+    "id": "srd:item:wizardry-iv",
+    "kind": "item",
+    "name": "Wizardry IV",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 12000,
+      "magicText": "Aura: Moderate enchantment; CL: 10; Price: 12,000 gp; Prerequisites: Craft Rod, confusion, creator must be chaotic"
+    },
+    "description": "**Wonder:** A *rod of wonder* is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. (Activating the rod is a standard action.) Typical powers of the rod include the following.\n\n**d%** | **Wondrous Effect**\n01-05 | *Slow* creature pointed at for 10 rounds (Will DC 15 negates).\n06-10 | *Faerie fire* surrounds the target.\n11-15 | Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save).\n16-20 | *Gust of wind*, but at windstorm force (Fortitude DC 14 negates).\n21-25 | Wielder learns target's surface thoughts (as with *detect thoughts)* for 1d4 rounds (no save).\n26-30 | *Stinking cloud* at 30-ft. range (Fortitude DC 15 negates).\n31-33 | Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder.\n34-36 | *Summon* an animal-a rhino (01-25 on d%), elephant (26-50), or mouse (51-100).\n37-46 | *Lightning bolt* (70 ft. long, 5 ft. wide), 6d6 damage (Reflex DC 15 half).\n47-49 | Stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone (including wielder) within 25 ft. (Reflex DC 14 negates).\n50-53 | *Enlarge person* if within 60 ft. of rod (Fortitude DC 13 negates).\n54-58 | *Darkness*, 30-ft. -diameter hemisphere, centered 30 ft. away from rod.\n59-62 | Grass grows in 160-sq. -ft. area before the rod, or grass existing there grows to ten times normal size.\n63-65 | Turn ethereal any nonliving object of up to 1,000 lb. mass and up to 30 cu. ft. in size.\n66-69 | Reduce wielder to 1/12 height (no save).\n70-79 | *Fireball* at target or 100 ft. straight ahead, 6d6 damage (Reflex DC 15 half).\n80-84 | *Invisibility* covers rod wielder.\n85-87 | Leaves grow from target if within 60 ft. of rod. These last 24 hours.\n88-90 | 10-40 gems, value 1 gp each, shoot forth in a 30-ft. -long stream. Each gem deals 1 point of damage to any creature in its path: Roll 5d4 for the number of hits and divide them among the available targets.\n91-95 | Shimmering colors dance and play over a 40-ft. -by-30-ft. area in front of rod. Creatures therein are blinded for 1d6 rounds (Fortitude DC 15 negates).\n96-97 | Wielder (50% chance) or target (50% chance) turns permanently blue, green, or purple (no save).\n98-100 | *Flesh to stone* (or *stone to flesh* if target is stone already) if target is within 60 ft. (Fortitude DC 18 negates).\n\nModerate enchantment; CL 10th; Craft Rod, *confusion*, creator must be chaotic; Price 12,000 gp.",
+    "effects": [],
+    "id": "srd:item:wonder",
+    "kind": "item",
+    "name": "Wonder",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 150,
+      "magicText": "Price: 150 gp"
+    },
+    "effects": [],
+    "id": "srd:item:wood-shape",
+    "kind": "item",
+    "name": "Wood Shape",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "divine"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "staff",
+      "costGp": 101250,
+      "magicText": "Aura: Moderate varied; CL: 13; Price: 101,250 gp; Prerequisites: Craft Staff, Craft Magic Arms and Armor, animate plants, barkskin, charm animal, pass without trace, speak with animals, summon nature's ally VI, wall of thorns"
+    },
+    "description": "**Woodlands:** Appearing to have grown naturally into its shape, this oak, ash, or yew staff allows use of the following spells:\n\n- *Charm animal* (1 charge)\n\n- *Speak with animals* (1 charge)\n\n- *Barkskin* (2 charges)\n\n- *Wall of thorns* (3 charges)\n\n- *Summon nature's ally VI* (3 charges)\n\n- *Animate plants* (4 charges)\n\nThe staff may be used as a weapon, functioning as a *+2 quarterstaff*. The *staff of the woodlands* also allows its wielder to *pass without trace* at will, with no charge cost. These two attributes continue to function after all the charges are expended.\n\nModerate varied; CL 13th; Craft Staff, Craft Magic Arms and Armor, *animate plants*, *barkskin*, *charm animal*, *pass without trace*, *speak with animals*, *summon nature's ally VI*, *wall of thorns*; Price 101,250 gp.",
+    "effects": [],
+    "id": "srd:item:woodlands",
+    "kind": "item",
+    "name": "Woodlands",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 2275,
+      "magicText": "Price: 2,275 gp"
+    },
+    "effects": [],
+    "id": "srd:item:word-of-chaos",
+    "kind": "item",
+    "name": "Word of Chaos",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "divine"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 1650,
+      "magicText": "Price: 1,650 gp"
+    },
+    "effects": [],
+    "id": "srd:item:word-of-recall",
+    "kind": "item",
+    "name": "Word of Recall",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "divine"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "magic",
+      "magicText": "Aura: Moderate evocation; CL: 10; Price: +2 bonus; Prerequisites: Craft Magic Arms and Armor, mage's sword"
+    },
+    "description": "**Wounding:** A wounding weapon deals 1 point of Constitution damage from blood loss when it hits a creature. A critical hit does not multiply the Constitution damage. Creatures immune to critical hits (such as plants and constructs) are immune to the Constitution damage dealt by this weapon.\n\nModerate evocation; CL 10th; Craft Magic Arms and Armor, *mage's sword*; Price +2 bonus.\n\n**Table: Specific Weapons Minor** | **Medium** | **Major** | **Specific Weapon** | **Market Price**\n01-15 | - | - | *Sleep arrow* | 132 gp\n16-25 | - | - | *Screaming bolt* | 267 gp\n26-45 | - | - | Silver dagger, masterwork | 322 gp\n46-65 | - | - | Cold iron longsword, masterwork | 330 gp\n66-75 | 01-09 | - | *Javelin of lightning* | 1,500 gp\n76-80 | 10-15 | - | *Slaying arrow* | 2,282 gp\n81-90 | 16-24 | - | Adamantine dagger | 3,002 gp\n91-100 | 25-33 | - | Adamantine battleaxe | 3,010 gp\n- | 34-37 | - | *Slaying arrow (greater)* | 4,057 gp\n- | 38-40 | - | *Shatterspike* | 4,315 gp\n- | 41-46 | - | *Dagger of venom* | 8,302 gp\n- | 47-51 | - | *Trident of warning* | 10,115 gp\n- | 52-57 | 01-04 | *Assassin's dagger* | 10,302 gp\n- | 58-62 | 05-07 | *Shifter's sorrow* | 12,780 gp\n- | 63-66 | 08-09 | *Trident of fish command* | 18,650 gp\n- | 67-74 | 10-13 | *Flame tongue* | 20,715 gp\n- | 75-79 | 14-17 | *Luck blade (0 wishes)* | 22,060 gp\n- | 80-86 | 18-24 | *Sword of subtlety* | 22,310 gp\n- | 87-91 | 25-31 | *Sword of the planes* | 22,315 gp\n- | 92-95 | 32-37 | *Nine lives stealer* | 23,057 gp\n- | 96-98 | 38-42 | *Sword of life stealing* | 25,715 gp\n- | 99-100 | 43-46 | *oathbow* | 25,600 gp\n- | - | 47-51 | *Mace of terror* | 38,552 gp\n- | - | 52-57 | *Life-drinker* | 40,320 gp\n- | - | 58-62 | *Sylvan scimitar* | 47,315 gp\n- | - | 63-67 | *Rapier of puncturing* | 50,320 gp\n- | - | 68-73 | *Sun blade* | 50,335 gp\n- | - | 74-79 | *Frost brand* | 54,475 gp\n- | - | 80-84 | *Dwarven thrower* | 60,312 gp\n- | - | 85-91 | *Luck blade (1 wish)* | 62,360 gp\n- | - | 92-95 | *Mace of smiting* | 75,312 gp\n- | - | 96-97 | *Luck blade (2 wishes)* | 102,660 gp\n- | - | 98-99 | *Holy avenger* | 120,630 gp\n- | - | 100 | *Luck blade (3 wishes)* | 142,960 gp",
+    "effects": [],
+    "id": "srd:item:wounding",
+    "kind": "item",
+    "name": "Wounding",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "special-ability"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1562600,
+      "magicText": "CL: 34; Price: 1,562,600 gp; Cost: 781,600 gp + 25,620 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-black",
+    "kind": "item",
+    "name": "Wyrm, Black",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1782200,
+      "magicText": "CL: 34; Price: 1,782,200 gp; Cost: 891,400 gp + 27,816 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-blue",
+    "kind": "item",
+    "name": "Wyrm, Blue",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1458200,
+      "magicText": "CL: 34; Price: 1,458,200 gp; Cost: 729,400 gp + 24,576 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-brass",
+    "kind": "item",
+    "name": "Wyrm, Brass",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1670600,
+      "magicText": "CL: 34; Price: 1,670,600 gp; Cost: 835,600 gp + 26,700 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-bronze",
+    "kind": "item",
+    "name": "Wyrm, Bronze",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1562600,
+      "magicText": "CL: 34; Price: 1,562,600 gp; Cost: 781,600 gp + 25,620 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-copper",
+    "kind": "item",
+    "name": "Wyrm, Copper",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1897400,
+      "magicText": "CL: 34; Price: 1,897,400 gp; Cost: 949,000 gp + 28,968 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-gold",
+    "kind": "item",
+    "name": "Wyrm, Gold",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1670600,
+      "magicText": "CL: 34; Price: 1,670,600 gp; Cost: 835,600 gp + 26,700 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-green",
+    "kind": "item",
+    "name": "Wyrm, Green",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1897400,
+      "magicText": "CL: 34; Price: 1,897,400 gp; Cost: 949,000 gp + 28,968 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-red",
+    "kind": "item",
+    "name": "Wyrm, Red",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1782200,
+      "magicText": "CL: 34; Price: 1,782,200 gp; Cost: 891,400 gp + 27,816 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-silver",
+    "kind": "item",
+    "name": "Wyrm, Silver",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "rod",
+      "costGp": 1458200,
+      "magicText": "CL: 34; Price: 1,458,200 gp; Cost: 729,400 gp + 24,576 XP; Prerequisites: Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened polymorph, creator must be same alignment as dragon type"
+    },
+    "description": "**Wyrm:** Any of the various rods in this series functions as a +*5 quarterstaff*. Upon casting the rod to the ground (a standard action) and uttering a command word, the rod grows into a specific type of dragon (depending on the specific type of rod) by the end of the round. The dragon created is a wyrm and obeys the commands of the owner. The dragon returns to rod form (a full-round action) whenever the wielder desires, or whenever it moves farther than 500 feet from the owner. If the dragon form is slain, it returns to rod form and cannot be activated again for three days. A *wyrm rod* only functions if the possessor is of the same alignment as the dragon type.\n\n*Caster Level:* 34th (white or brass), 35th (black or copper), 36th (green or bronze), 37th (blue or silver), 38th (red or gold); *Prerequisites:* Craft Rod, Craft Epic Rod, Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, Improved Heighten Spell, improved heightened *polymorph*, creator must be same alignment as dragon type; *Market Price:* 1,458,200 gp (brass or white), 1,562,600 gp (black or copper), 1,670,600 gp (bronze or green), 1,782,200 gp (blue or silver), 1,897,400 gp (gold or red); *Cost to Create:* 729,400 gp + 24,576 XP (brass or white), 781,600 gp + 25,620 XP (black or copper), 835,600 gp + 26,700 XP (bronze or green), 891,400 gp + 27,816 XP (blue or silver), 949,000 gp + 28,968 XP (gold or red).",
+    "effects": [],
+    "id": "srd:item:wyrm-white",
+    "kind": "item",
+    "name": "Wyrm, White",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "ring",
+      "costGp": 25000,
+      "magicText": "Aura: Moderate divination; CL: 6; Price: 25,000 gp; Prerequisites: Forge Ring, true seeing"
+    },
+    "description": "**X-Ray Vision:** On command, this ring gives its possessor the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead blocks the vision.\n\nUsing the ring is physically exhausting, causing the wearer 1 point of Constitution damage per minute after the first 10 minutes of use in a single day.\n\nModerate divination; CL 6th; Forge Ring, *true seeing*; Price 25,000 gp.",
+    "effects": [],
+    "id": "srd:item:x-ray-vision",
+    "kind": "item",
+    "name": "X-Ray Vision",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 1000,
+      "magicText": "Price: 1,000 gp"
+    },
+    "effects": [],
+    "id": "srd:item:zone-of-silence",
+    "kind": "item",
+    "name": "Zone of Silence",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "arcane"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "category": "scroll",
+      "costGp": 150,
+      "magicText": "Price: 150 gp"
+    },
+    "effects": [],
+    "id": "srd:item:zone-of-truth",
+    "kind": "item",
+    "name": "Zone of Truth",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "magic",
+      "divine"
+    ],
+    "updatedAt": ""
+  }
+]
