@@ -4,6 +4,9 @@ import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
+  // Für GitHub Pages (https://<user>.github.io/<repo>/) setzt das Deployment
+  // PAGES_BASE=/<repo>/; lokal bleibt es "/".
+  base: process.env.PAGES_BASE ?? "/",
   plugins: [
     react(),
     tailwindcss(),
