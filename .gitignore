@@ -1,0 +1,20 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+*.local
+*.log
+
+# Vite
+apps/web/dev-dist/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Private Buchinhalte (Urheberrecht!) — Extraktions-Output wird NIE committet.
+# Nur das freie SRD (packs/srd) gehört ins Repo.
+tools/extract/out/
+tools/extract/private/
+packs/private/
+*.private.json
