@@ -1,0 +1,3700 @@
+[
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:balance",
+        "srd:skill:climb",
+        "srd:skill:concentration",
+        "srd:skill:craft",
+        "srd:skill:diplomacy",
+        "srd:skill:escape-artist",
+        "srd:skill:hide",
+        "srd:skill:jump",
+        "srd:skill:knowledge",
+        "srd:skill:listen",
+        "srd:skill:move-silently",
+        "srd:skill:perform",
+        "srd:skill:profession",
+        "srd:skill:sense-motive",
+        "srd:skill:spot",
+        "srd:skill:swim",
+        "srd:skill:tumble"
+      ],
+      "hitDie": 8,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            },
+            {
+              "effects": [],
+              "name": "flurry of blows"
+            },
+            {
+              "effects": [],
+              "name": "unarmed strike"
+            }
+          ],
+          "fort": 2,
+          "ref": 2,
+          "will": 2
+        },
+        {
+          "bab": 1,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            },
+            {
+              "effects": [],
+              "name": "evasion"
+            }
+          ],
+          "fort": 3,
+          "ref": 3,
+          "will": 3
+        },
+        {
+          "bab": 2,
+          "features": [
+            {
+              "effects": [],
+              "name": "Still mind"
+            }
+          ],
+          "fort": 3,
+          "ref": 3,
+          "will": 3
+        },
+        {
+          "bab": 3,
+          "features": [
+            {
+              "effects": [],
+              "name": "Ki strike (magic)"
+            },
+            {
+              "effects": [],
+              "name": "slow fall 20 ft."
+            }
+          ],
+          "fort": 4,
+          "ref": 4,
+          "will": 4
+        },
+        {
+          "bab": 3,
+          "features": [
+            {
+              "effects": [],
+              "name": "Purity of body"
+            }
+          ],
+          "fort": 4,
+          "ref": 4,
+          "will": 4
+        },
+        {
+          "bab": 4,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            },
+            {
+              "effects": [],
+              "name": "slow fall 30 ft."
+            }
+          ],
+          "fort": 5,
+          "ref": 5,
+          "will": 5
+        },
+        {
+          "bab": 5,
+          "features": [
+            {
+              "effects": [],
+              "name": "Wholeness of body"
+            }
+          ],
+          "fort": 5,
+          "ref": 5,
+          "will": 5
+        },
+        {
+          "bab": 6,
+          "features": [
+            {
+              "effects": [],
+              "name": "Slow fall 40 ft."
+            }
+          ],
+          "fort": 6,
+          "ref": 6,
+          "will": 6
+        },
+        {
+          "bab": 6,
+          "features": [
+            {
+              "effects": [],
+              "name": "Improved evasion"
+            }
+          ],
+          "fort": 6,
+          "ref": 6,
+          "will": 6
+        },
+        {
+          "bab": 7,
+          "features": [
+            {
+              "effects": [],
+              "name": "Ki strike (lawful)"
+            },
+            {
+              "effects": [],
+              "name": "slow fall 50 ft."
+            }
+          ],
+          "fort": 7,
+          "ref": 7,
+          "will": 7
+        },
+        {
+          "bab": 8,
+          "features": [
+            {
+              "effects": [],
+              "name": "Diamond body"
+            },
+            {
+              "effects": [],
+              "name": "greater flurry"
+            }
+          ],
+          "fort": 7,
+          "ref": 7,
+          "will": 7
+        },
+        {
+          "bab": 9,
+          "features": [
+            {
+              "effects": [],
+              "name": "Abundant step"
+            },
+            {
+              "effects": [],
+              "name": "slow fall 60 ft."
+            }
+          ],
+          "fort": 8,
+          "ref": 8,
+          "will": 8
+        },
+        {
+          "bab": 9,
+          "features": [
+            {
+              "effects": [],
+              "name": "Diamond soul"
+            }
+          ],
+          "fort": 8,
+          "ref": 8,
+          "will": 8
+        },
+        {
+          "bab": 10,
+          "features": [
+            {
+              "effects": [],
+              "name": "Slow fall 70 ft."
+            }
+          ],
+          "fort": 9,
+          "ref": 9,
+          "will": 9
+        },
+        {
+          "bab": 11,
+          "features": [
+            {
+              "effects": [],
+              "name": "Quivering palm"
+            }
+          ],
+          "fort": 9,
+          "ref": 9,
+          "will": 9
+        },
+        {
+          "bab": 12,
+          "features": [
+            {
+              "effects": [],
+              "name": "Ki strike (adamantine)"
+            },
+            {
+              "effects": [],
+              "name": "slow fall 80 ft."
+            }
+          ],
+          "fort": 10,
+          "ref": 10,
+          "will": 10
+        },
+        {
+          "bab": 12,
+          "features": [
+            {
+              "effects": [],
+              "name": "Timeless body"
+            },
+            {
+              "effects": [],
+              "name": "tongue of the sun and moon"
+            }
+          ],
+          "fort": 10,
+          "ref": 10,
+          "will": 10
+        },
+        {
+          "bab": 13,
+          "features": [
+            {
+              "effects": [],
+              "name": "Slow fall 90 ft."
+            }
+          ],
+          "fort": 11,
+          "ref": 11,
+          "will": 11
+        },
+        {
+          "bab": 14,
+          "features": [
+            {
+              "effects": [],
+              "name": "Empty body"
+            }
+          ],
+          "fort": 11,
+          "ref": 11,
+          "will": 11
+        },
+        {
+          "bab": 15,
+          "features": [
+            {
+              "effects": [],
+              "name": "Perfect self"
+            },
+            {
+              "effects": [],
+              "name": "slow fall any distance"
+            }
+          ],
+          "fort": 12,
+          "ref": 12,
+          "template": {
+            "bab": "average",
+            "fort": "good",
+            "ref": "good",
+            "will": "good"
+          },
+          "will": 12
+        }
+      ],
+      "maxLevel": 20,
+      "proficiencies": "Monks are proficient with club, crossbow (light or heavy), dagger, handaxe, javelin, kama, nunchaku, quarterstaff, sai, shuriken, siangham, and sling.Monks are not proficient with any armor or shieldsWhen wearing armor, using a shield, or carrying a medium or heavy load, a monk loses her AC bonus, as well as her fast movement and flurry of blows abilities.",
+      "requirements": [],
+      "skillPointsPerLevel": 4
+    },
+    "description": "Monk\n\n**Alignment:** Any lawful.\n\n**Hit Die:** d8.\n\n**Class Skills**\n\nThe monk's class skills (and the key ability for each skill) are Balance (Dex), Climb (Str), Concentration (Con), Craft (Int), Diplomacy (Cha), Escape Artist (Dex), Hide (Dex), Jump (Str), Knowledge (arcana) (Int), Knowledge (religion) (Int), Listen (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spot (Wis), Swim (Str), and Tumble (Dex).\n\n**Skill Points at 1st Level:** (4 + Int modifier) x4.\n\n**Skill Points at Each Additional Level:** 4 + Int modifier.\n\n**Table: The Monk Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Special** | **Flurry of Blows Attack Bonus** | **Unarmed Damage** | **AC Bonus** | **Unarmored Speed Bonus**\n1st | +0 | +2 | +2 | +2 | Bonus feat, flurry of blows, unarmed strike | -2/-2 | 1d6 | +0 | +0 ft.\n2nd | +1 | +3 | +3 | +3 | Bonus feat, evasion | -1/-1 | 1d6 | +0 | +0 ft.\n3rd | +2 | +3 | +3 | +3 | Still mind | +0/+0 | 1d6 | +0 | +10 ft.\n4th | +3 | +4 | +4 | +4 | *Ki* strike (magic), slow fall 20 ft. | +1/+1 | 1d8 | +0 | +10 ft.\n5th | +3 | +4 | +4 | +4 | Purity of body | +2/+2 | 1d8 | +1 | +10 ft.\n6th | +4 | +5 | +5 | +5 | Bonus feat, slow fall 30 ft. | +3/+3 | 1d8 | +1 | +20 ft.\n7th | +5 | +5 | +5 | +5 | Wholeness of body | +4/+4 | 1d8 | +1 | +20 ft.\n8th | +6/+1 | +6 | +6 | +6 | Slow fall 40 ft. | +5/+5/+0 | 1d10 | +1 | +20 ft.\n9th | +6/+1 | +6 | +6 | +6 | Improved evasion | +6/+6/+1 | 1d10 | +1 | +30 ft.\n10th | +7/+2 | +7 | +7 | +7 | *Ki* strike (lawful), slow fall 50 ft. | +7/+7/+2 | 1d10 | +2 | +30 ft.\n11th | +8/+3 | +7 | +7 | +7 | Diamond body, greater flurry | +8/+8/+8/+3 | 1d10 | +2 | +30 ft.\n12th | +9/+4 | +8 | +8 | +8 | Abundant step, slow fall 60 ft. | +9/+9/+9/+4 | 2d6 | +2 | +40 ft.\n13th | +9/+4 | +8 | +8 | +8 | Diamond soul | +9/+9/+9/+4 | 2d6 | +2 | +40 ft.\n14th | +10/+5 | +9 | +9 | +9 | Slow fall 70 ft. | +10/+10/+10/+5 | 2d6 | +2 | +40 ft.\n15th | +11/+6/+1 | +9 | +9 | +9 | Quivering palm | +11/+11/+11/+6/+1 | 2d6 | +3 | +50 ft.\n16th | +12/+7/+2 | +10 | +10 | +10 | *Ki* strike (adamantine), slow fall 80 ft. | +12/+12/+12/+7/+2 | 2d8 | +3 | +50 ft.\n17th | +12/+7/+2 | +10 | +10 | +10 | Timeless body, tongue of the sun and moon | +12/+12/+12/+7/+2 | 2d8 | +3 | +50 ft.\n18th | +13/+8/+3 | +11 | +11 | +11 | Slow fall 90 ft. | +13/+13/+13/+8/+3 | 2d8 | +3 | +60 ft.\n19th | +14/+9/+4 | +11 | +11 | +11 | Empty body | +14/+14/+14/+9/+4 | 2d8 | +3 | +60 ft.\n20th | +15/+10/+5 | +12 | +12 | +12 | Perfect self, slow fall any distance | +15/+15/+15/+10/+5 | 2d10 | +4 | +60 ft.\n1 The value shown is for Medium monks. See Table: Small or Large Monk Unarmed Damage for Small or Large monks.\n\n**Class Features**\n\nAll of the following are class features of the monk.\n\n**Weapon and Armor Proficiency:** Monks are proficient with club, crossbow (light or heavy), dagger, handaxe, javelin, kama, nunchaku, quarterstaff, sai, shuriken, siangham, and sling.\n\nMonks are not proficient with any armor or shields\n\nWhen wearing armor, using a shield, or carrying a medium or heavy load, a monk loses her AC bonus, as well as her fast movement and flurry of blows abilities.\n\n**AC Bonus (Ex):** When unarmored and unencumbered, the monk adds her Wisdom bonus (if any) to her AC. In addition, a monk gains a +1 bonus to AC at 5th level. This bonus increases by 1 for every five monk levels thereafter (+2 at 10th, +3 at 15th, and +4 at 20th level).\n\nThese bonuses to AC apply even against touch attacks or when the monk is flat-footed. She loses these bonuses when she is immobilized or helpless, when she wears any armor, when she carries a shield, or when she carries a medium or heavy load.\n\n**Flurry of Blows (Ex):** When unarmored, a monk may strike with a flurry of blows at the expense of accuracy. When doing so, she may make one extra attack in a round at her highest base attack bonus, but this attack takes a -2 penalty, as does each other attack made that round. The resulting modified base attack bonuses are shown in the Flurry of Blows Attack Bonus column on Table: The Monk. This penalty applies for 1 round, so it also affects attacks of opportunity the monk might make before her next action. When a monk reaches 5th level, the penalty lessens to -1, and at 9th level it disappears. A monk must use a full attack action to strike with a flurry of blows.\n\nWhen using flurry of blows, a monk may attack only with unarmed strikes or with special monk weapons (kama, nunchaku, quarterstaff, sai, shuriken, and siangham). She may attack with unarmed strikes and special monk weapons interchangeably as desired. When using weapons as part of a flurry of blows, a monk applies her Strength bonus (not Str bonus x 1-1/2 or x1/2) to her damage rolls for all successful attacks, whether she wields a weapon in one or both hands. The monk can't use any weapon other than a special monk weapon as part of a flurry of blows.\n\nIn the case of the quarterstaff, each end counts as a separate weapon for the purpose of using the flurry of blows ability. Even though the quarterstaff requires two hands to use, a monk may still intersperse unarmed strikes with quarterstaff strikes, assuming that she has enough attacks in her flurry of blows routine to do so.\n\nWhen a monk reaches 11th level, her flurry of blows ability improves. In addition to the standard single extra attack she gets from flurry of blows, she gets a second extra attack at her full base attack bonus.\n\n**Unarmed Strike:** At 1st level, a monk gains Improved Unarmed Strike as a bonus feat. A monk's attacks may be with either fist interchangeably or even from elbows, knees, and feet. This means that a monk may even make unarmed strikes with her hands full. There is no such thing as an off-hand attack for a monk striking unarmed. A monk may thus apply her full Strength bonus on damage rolls for all her unarmed strikes.\n\nUsually a monk's unarmed strikes deal lethal damage, but she can choose to deal nonlethal damage instead with no penalty on her attack roll. She has the same choice to deal lethal or nonlethal damage while grappling.\n\nA monk's unarmed strike is treated both as a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons.\n\nA monk also deals more damage with her unarmed strikes than a normal person would, as shown on Table: The Monk. The unarmed damage on Table: The Monk is for Medium monks. A Small monk deals less damage than the amount given there with her unarmed attacks, while a Large monk deals more damage; see Table: Small or Large Monk Unarmed Damage.\n\n**Table: Small or Large Monk Unarmed Damage Level** | **Damage** (**Small Monk)** | **Damage (Large Monk)**\n1st-3rd | 1d4 | 1d8\n4th-7th | 1d6 | 2d6\n8th-11th | 1d8 | 2d8\n12th-15th | 1d10 | 3d6\n16th-19th | 2d6 | 3d8\n20th | 2d8 | 4d8\n\n**Bonus Feat:** At 1st level, a monk may select either Improved Grapple or Stunning Fist as a bonus feat. At 2nd level, she may select either Combat Reflexes or Deflect Arrows as a bonus feat. At 6th level, she may select either Improved Disarm or Improved Trip as a bonus feat. A monk need not have any of the prerequisites normally required for these feats to select them.\n\n**Evasion (Ex):** At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if a monk is wearing light armor or no armor. A helpless monk does not gain the benefit of evasion.\n\n**Fast Movement (Ex):** At 3rd level, a monk gains an enhancement bonus to her speed, as shown on Table: The Monk. A monk in armor or carrying a medium or heavy load loses this extra speed.\n\n**Still Mind (Ex):** A monk of 3rd level or higher gains a +2 bonus on saving throws against spells and effects from the school of enchantment.\n\n***Ki* Strike (Su):** At 4th level, a monk's unarmed attacks are empowered with *ki*. Her unarmed attacks are treated as magic weapons for the purpose of dealing damage to creatures with damage reduction. *Ki* strike improves with the character's monk level. At 10th level, her unarmed attacks are also treated as lawful weapons for the purpose of dealing damage to creatures with damage reduction. At 16th level, her unarmed attacks are treated as adamantine weapons for the purpose of dealing damage to creatures with damage reduction and bypassing hardness.\n\n**Slow Fall (Ex):** At 4th level or higher, a monk within arm's reach of a wall can use it to slow her descent. When first using this ability, she takes damage as if the fall were 20 feet shorter than it actually is. The monk's ability to slow her fall (that is, to reduce the effective distance of the fall when next to a wall) improves with her monk level until at 20th level she can use a nearby wall to slow her descent and fall any distance without harm.\n\n**Purity of Body (Ex):** At 5th level, a monk gains immunity to all diseases except for supernatural and magical diseases.\n\n**Wholeness of Body (Su):** At 7th level or higher, a monk can heal her own wounds. She can heal a number of hit points of damage equal to twice her current monk level each day, and she can spread this healing out among several uses.\n\n**Improved Evasion (Ex):** At 9th level, a monk's evasion ability improves. She still takes no damage on a successful Reflex saving throw against attacks, but henceforth she takes only half damage on a failed save. A helpless monk does not gain the benefit of improved evasion.\n\n**Diamond Body (Su):** At 11th level, a monk gains immunity to poisons of all kinds.\n\n**Abundant Step (Su):** At 12th level or higher, a monk can slip magically between spaces, as if using the spell *dimension door*, once per day. Her caster level for this effect is one-half her monk level (rounded down).\n\n**Diamond Soul (Ex):** At 13th level, a monk gains spell resistance equal to her current monk level + 10. In order to affect the monk with a spell, a spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the monk's spell resistance.\n\n**Quivering Palm (Su):** Starting at 15th level, a monk can set up vibrations within the body of another creature that can thereafter be fatal if the monk so desires. She can use this quivering palm attack once a week, and she must announce her intent before making her attack roll. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be affected. Otherwise, if the monk strikes successfully and the target takes damage from the blow, the quivering palm attack succeeds. Thereafter the monk can try to slay the victim at any later time, as long as the attempt is made within a number of days equal to her monk level. To make such an attempt, the monk merely wills the target to die (a free action), and unless the target makes a Fortitude saving throw (DC 10 + 1/2 the monk's level + the monk's Wis modifier), it dies. If the saving throw is successful, the target is no longer in danger from that particular quivering palm attack, but it may still be affected by another one at a later time.\n\n**Timeless Body (Ex):** Upon attaining 17th level, a monk no longer takes penalties to her ability scores for aging and cannot be magically aged. Any such penalties that she has already taken, however, remain in place. Bonuses still accrue, and the monk still dies of old age when her time is up.\n\n**Tongue of the Sun and Moon (Ex):** A monk of 17th level or higher can speak with any living creature.\n\n**Empty Body (Su):** At 19th level, a monk gains the ability to assume an ethereal state for 1 round per monk level per day, as though using the spell *etherealness*. She may go ethereal on a number of different occasions during any single day, as long as the total number of rounds spent in an ethereal state does not exceed her monk level.\n\n**Perfect Self:** At 20th level, a monk becomes a magical creature. She is forevermore treated as an outsider rather than as a humanoid (or whatever the monk's creature type was) for the purpose of spells and magical effects. Additionally, the monk gains damage reduction 10/magic, which allows her to ignore the first 10 points of damage from any attack made by a nonmagical weapon or by any natural attack made by a creature that doesn't have similar damage reduction. Unlike other outsiders, the monk can still be brought back from the dead as if she were a member of her previous creature type.\n\n**Ex-Monks**\n\nA monk who becomes nonlawful cannot gain new levels as a monk but retains all monk abilities.\n\nLike a member of any other class, a monk may be a multiclass character, but multiclass monks face a special restriction. A monk who gains a new class or (if already multiclass) raises another class by a level may never again raise her monk level, though she retains all her monk abilities.",
+    "effects": [],
+    "id": "srd:class:monk",
+    "kind": "class",
+    "name": "Monk",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "base"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:concentration",
+        "srd:skill:craft",
+        "srd:skill:decipher-script",
+        "srd:skill:knowledge",
+        "srd:skill:profession",
+        "srd:skill:sense-motive",
+        "srd:skill:spellcraft"
+      ],
+      "hitDie": 4,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [],
+          "fort": 0,
+          "ref": 0,
+          "will": 2
+        },
+        {
+          "bab": 1,
+          "features": [],
+          "fort": 0,
+          "ref": 0,
+          "will": 3
+        },
+        {
+          "bab": 1,
+          "features": [],
+          "fort": 1,
+          "ref": 1,
+          "will": 3
+        },
+        {
+          "bab": 2,
+          "features": [],
+          "fort": 1,
+          "ref": 1,
+          "will": 4
+        },
+        {
+          "bab": 2,
+          "features": [],
+          "fort": 1,
+          "ref": 1,
+          "will": 4
+        },
+        {
+          "bab": 3,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "will": 5
+        },
+        {
+          "bab": 3,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "will": 5
+        },
+        {
+          "bab": 4,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "will": 6
+        },
+        {
+          "bab": 4,
+          "features": [],
+          "fort": 3,
+          "ref": 3,
+          "will": 6
+        },
+        {
+          "bab": 5,
+          "features": [],
+          "fort": 3,
+          "ref": 3,
+          "template": {
+            "bab": "poor",
+            "fort": "poor",
+            "ref": "poor",
+            "will": "good"
+          },
+          "will": 7
+        }
+      ],
+      "maxLevel": 10,
+      "proficiencies": "Mystic theurges gain no proficiency with any weapon or armor.",
+      "requirements": [
+        {
+          "ranks": 6,
+          "skillId": "srd:skill:knowledge",
+          "type": "minSkillRanks"
+        },
+        {
+          "ranks": 6,
+          "skillId": "srd:skill:knowledge",
+          "type": "minSkillRanks"
+        },
+        {
+          "text": "Able to cast 2nd-level divine spells and 2nd-level arcane spells",
+          "type": "custom"
+        }
+      ],
+      "skillPointsPerLevel": 2
+    },
+    "description": "Mystic Theurge\n\n**Hit Die:** d4.\n\n**Requirements**\n\nTo qualify to become a mystic theurge, a character must fulfill all the following criteria.\n\n**Skills:** Knowledge (arcana) 6 ranks, Knowledge (religion) 6 ranks.\n\n**Spells:** Able to cast 2nd-level divine spells and 2nd-level arcane spells.\n\n**Class Skills**\n\nThe mystic theurge's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Decipher Script (Int), Knowledge (arcana) (Int), Knowledge (religion) (Int), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).\n\n**Skill Points at Each Level:** 2 + Int modifier.\n\n**Table: The Mystic Theurge Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Spells per Day**\n1st | +0 | +0 | +0 | +2 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n2nd | +1 | +0 | +0 | +3 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n3rd | +1 | +1 | +1 | +3 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n4th | +2 | +1 | +1 | +4 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n5th | +2 | +1 | +1 | +4 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n6th | +3 | +2 | +2 | +5 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n7th | +3 | +2 | +2 | +5 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n8th | +4 | +2 | +2 | +6 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n9th | +4 | +3 | +3 | +6 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n10th | +5 | +3 | +3 | +7 | +1 level of existing arcane spellcasting class/ +1 level of existing divine spellcasting class\n\n**Class Features**\n\nAll of the following are features of the mystic theurge prestige class.\n\n**Weapon and Armor Proficiency:** Mystic theurges gain no proficiency with any weapon or armor.\n\n**Spells per Day:** When a new mystic theurge level is gained, the character gains new spells per day as if he had also gained a level in any one arcane spellcasting class he belonged to before he added the prestige class and any one divine spellcasting class he belonged to previously. He does not, however, gain any other benefit a character of that class would have gained. This essentially means that he adds the level of mystic theurge to the level of whatever other arcane spellcasting class and divine spellcasting class the character has, then determines spells per day and caster level accordingly. If a character had more than one arcane spellcasting class or more than one divine spellcasting class before he became a mystic theurge, he must decide to which class he adds each level of mystic theurge for the purpose of determining spells per day.",
+    "effects": [],
+    "id": "srd:class:mystic-theurge",
+    "kind": "class",
+    "name": "Mystic Theurge",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "prestige"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:concentration",
+        "srd:skill:craft",
+        "srd:skill:diplomacy",
+        "srd:skill:handle-animal",
+        "srd:skill:heal",
+        "srd:skill:knowledge",
+        "srd:skill:profession",
+        "srd:skill:ride",
+        "srd:skill:sense-motive"
+      ],
+      "hitDie": 10,
+      "levels": [
+        {
+          "bab": 1,
+          "features": [
+            {
+              "effects": [],
+              "name": "Aura of good"
+            },
+            {
+              "effects": [],
+              "name": "detect evil"
+            },
+            {
+              "effects": [],
+              "name": "smite evil 1/day"
+            }
+          ],
+          "fort": 2,
+          "ref": 0,
+          "spellsPerDay": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 0
+        },
+        {
+          "bab": 2,
+          "features": [
+            {
+              "effects": [],
+              "name": "Divine grace"
+            },
+            {
+              "effects": [],
+              "name": "lay on hands"
+            }
+          ],
+          "fort": 3,
+          "ref": 0,
+          "spellsPerDay": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 0
+        },
+        {
+          "bab": 3,
+          "features": [
+            {
+              "effects": [],
+              "name": "Aura of courage"
+            },
+            {
+              "effects": [],
+              "name": "divine health"
+            }
+          ],
+          "fort": 3,
+          "ref": 1,
+          "spellsPerDay": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 1
+        },
+        {
+          "bab": 4,
+          "features": [
+            {
+              "effects": [],
+              "name": "Turn undead"
+            }
+          ],
+          "fort": 4,
+          "ref": 1,
+          "spellsPerDay": [
+            null,
+            0,
+            null,
+            null,
+            null
+          ],
+          "will": 1
+        },
+        {
+          "bab": 5,
+          "features": [
+            {
+              "effects": [],
+              "name": "Smite evil 2/day"
+            },
+            {
+              "effects": [],
+              "name": "special mount"
+            }
+          ],
+          "fort": 4,
+          "ref": 1,
+          "spellsPerDay": [
+            null,
+            0,
+            null,
+            null,
+            null
+          ],
+          "will": 1
+        },
+        {
+          "bab": 6,
+          "features": [
+            {
+              "effects": [],
+              "name": "Remove Disease 1/week"
+            }
+          ],
+          "fort": 5,
+          "ref": 2,
+          "spellsPerDay": [
+            null,
+            1,
+            null,
+            null,
+            null
+          ],
+          "will": 2
+        },
+        {
+          "bab": 7,
+          "features": [],
+          "fort": 5,
+          "ref": 2,
+          "spellsPerDay": [
+            null,
+            1,
+            null,
+            null,
+            null
+          ],
+          "will": 2
+        },
+        {
+          "bab": 8,
+          "features": [],
+          "fort": 6,
+          "ref": 2,
+          "spellsPerDay": [
+            null,
+            1,
+            0,
+            null,
+            null
+          ],
+          "will": 2
+        },
+        {
+          "bab": 9,
+          "features": [
+            {
+              "effects": [],
+              "name": "Remove Disease 2/week"
+            }
+          ],
+          "fort": 6,
+          "ref": 3,
+          "spellsPerDay": [
+            null,
+            1,
+            0,
+            null,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 10,
+          "features": [
+            {
+              "effects": [],
+              "name": "Smite evil 3/day"
+            }
+          ],
+          "fort": 7,
+          "ref": 3,
+          "spellsPerDay": [
+            null,
+            1,
+            1,
+            null,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 11,
+          "features": [],
+          "fort": 7,
+          "ref": 3,
+          "spellsPerDay": [
+            null,
+            1,
+            1,
+            0,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 12,
+          "features": [
+            {
+              "effects": [],
+              "name": "Remove Disease 3/week"
+            }
+          ],
+          "fort": 8,
+          "ref": 4,
+          "spellsPerDay": [
+            null,
+            1,
+            1,
+            1,
+            null
+          ],
+          "will": 4
+        },
+        {
+          "bab": 13,
+          "features": [],
+          "fort": 8,
+          "ref": 4,
+          "spellsPerDay": [
+            null,
+            1,
+            1,
+            1,
+            null
+          ],
+          "will": 4
+        },
+        {
+          "bab": 14,
+          "features": [],
+          "fort": 9,
+          "ref": 4,
+          "spellsPerDay": [
+            null,
+            2,
+            1,
+            1,
+            0
+          ],
+          "will": 4
+        },
+        {
+          "bab": 15,
+          "features": [
+            {
+              "effects": [],
+              "name": "Remove Disease 4/week"
+            },
+            {
+              "effects": [],
+              "name": "smite evil 4/day"
+            }
+          ],
+          "fort": 9,
+          "ref": 5,
+          "spellsPerDay": [
+            null,
+            2,
+            1,
+            1,
+            1
+          ],
+          "will": 5
+        },
+        {
+          "bab": 16,
+          "features": [],
+          "fort": 10,
+          "ref": 5,
+          "spellsPerDay": [
+            null,
+            2,
+            2,
+            1,
+            1
+          ],
+          "will": 5
+        },
+        {
+          "bab": 17,
+          "features": [],
+          "fort": 10,
+          "ref": 5,
+          "spellsPerDay": [
+            null,
+            2,
+            2,
+            2,
+            1
+          ],
+          "will": 5
+        },
+        {
+          "bab": 18,
+          "features": [
+            {
+              "effects": [],
+              "name": "Remove Disease 5/week"
+            }
+          ],
+          "fort": 11,
+          "ref": 6,
+          "spellsPerDay": [
+            null,
+            3,
+            2,
+            2,
+            1
+          ],
+          "will": 6
+        },
+        {
+          "bab": 19,
+          "features": [],
+          "fort": 11,
+          "ref": 6,
+          "spellsPerDay": [
+            null,
+            3,
+            3,
+            3,
+            2
+          ],
+          "will": 6
+        },
+        {
+          "bab": 20,
+          "features": [
+            {
+              "effects": [],
+              "name": "Smite evil 5/day"
+            }
+          ],
+          "fort": 12,
+          "ref": 6,
+          "spellsPerDay": [
+            null,
+            3,
+            3,
+            3,
+            3
+          ],
+          "template": {
+            "bab": "good",
+            "fort": "good",
+            "ref": "poor",
+            "will": "poor"
+          },
+          "will": 6
+        }
+      ],
+      "maxLevel": 20,
+      "proficiencies": "Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields).",
+      "requirements": [],
+      "skillPointsPerLevel": 2,
+      "spellcasting": {
+        "ability": "wis",
+        "armorFailure": false,
+        "bonusSlots": true,
+        "model": "prepared",
+        "spellListId": "srd:spelllist:paladin"
+      }
+    },
+    "description": "Paladin\n\n**Alignment:** Lawful good.\n\n**Hit Die:** d10.\n\n**Class Skills**\n\nThe paladin's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Heal (Wis), Knowledge (nobility and royalty) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), and Sense Motive (Wis).\n\n**Skill Points at 1st Level:** (2 + Int modifier) x4.\n\n**Skill Points at Each Additional Level:** 2 + Int modifier.\n\n**Table: The Paladin - Spells per Day - Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Special** | **1st** | **2nd** | **3rd** | **4th**\n1st | +1 | +2 | +0 | +0 | Aura of good, *detect evil*, smite evil 1/day | - | - | - | -\n2nd | +2 | +3 | +0 | +0 | Divine grace, lay on hands | - | - | - | -\n3rd | +3 | +3 | +1 | +1 | Aura of courage, divine health | - | - | - | -\n4th | +4 | +4 | +1 | +1 | Turn undead | 0 | - | - | -\n5th | +5 | +4 | +1 | +1 | Smite evil 2/day, special mount | 0 | - | - | -\n6th | +6/+1 | +5 | +2 | +2 | *Remove Disease* 1/week | 1 | - | - | -\n7th | +7/+2 | +5 | +2 | +2 | 1 | - | - | -\n8th | +8/+3 | +6 | +2 | +2 | 1 | 0 | - | -\n9th | +9/+4 | +6 | +3 | +3 | *Remove Disease* 2/week | 1 | 0 | - | -\n10th | +10/+5 | +7 | +3 | +3 | Smite evil 3/day | 1 | 1 | - | -\n11th | +11/+6/+1 | +7 | +3 | +3 | 1 | 1 | 0 | -\n12th | +12/+7/+2 | +8 | +4 | +4 | *Remove Disease* 3/week | 1 | 1 | 1 | -\n13th | +13/+8/+3 | +8 | +4 | +4 | 1 | 1 | 1 | -\n14th | +14/+9/+4 | +9 | +4 | +4 | 2 | 1 | 1 | 0\n15th | +15/+10/+5 | +9 | +5 | +5 | *Remove Disease* 4/week, smite evil 4/day | 2 | 1 | 1 | 1\n16th | +16/+11/+6/+1 | +10 | +5 | +5 | 2 | 2 | 1 | 1\n17th | +17/+12/+7/+2 | +10 | +5 | +5 | 2 | 2 | 2 | 1\n18th | +18/+13/+8/+3 | +11 | +6 | +6 | *Remove Disease* 5/week | 3 | 2 | 2 | 1\n19th | +19/+14/+9/+4 | +11 | +6 | +6 | 3 | 3 | 3 | 2\n20th | +20/+15/+10/+5 | +12 | +6 | +6 | Smite evil 5/day | 3 | 3 | 3 | 3\n\n**Class Features**\n\nAll of the following are class features of the paladin.\n\n**Weapon and Armor Proficiency:** Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields).\n\n**Aura of Good (Ex):** The power of a paladin's aura of good (see the *detect good* spell) is equal to her paladin level.\n\n***Detect Evil* (Sp):** At will, a paladin can use *detect evil*, as the spell.\n\n**Smite Evil (Su):** Once per day, a paladin may attempt to smite evil with one normal melee attack. She adds her Charisma bonus (if any) to her attack roll and deals 1 extra point of damage per paladin level. If the paladin accidentally smites a creature that is not evil, the smite has no effect, but the ability is still used up for that day.\n\nAt 5th level, and at every five levels thereafter, the paladin may smite evil one additional time per day, as indicated on Table: The Paladin, to a maximum of five times per day at 20th level.\n\n**Divine Grace (Su):** At 2nd level, a paladin gains a bonus equal to her Charisma bonus (if any) on all saving throws.\n\n**Lay on Hands (Su):** Beginning at 2nd level, a paladin with a Charisma score of 12 or higher can heal wounds (her own or those of others) by touch. Each day she can heal a total number of hit points of damage equal to her paladin level x her Charisma bonus. A paladin may choose to divide her healing among multiple recipients, and she doesn't have to use it all at once. Using lay on hands is a standard action.\n\nAlternatively, a paladin can use any or all of this healing power to deal damage to undead creatures. Using lay on hands in this way requires a successful melee touch attack and doesn't provoke an attack of opportunity. The paladin decides how many of her daily allotment of points to use as damage after successfully touching an undead creature.\n\n**Aura of Courage (Su):** Beginning at 3rd level, a paladin is immune to fear (magical or otherwise). Each ally within 10 feet of her gains a +4 morale bonus on saving throws against fear effects.\n\nThis ability functions while the paladin is conscious, but not if she is unconscious or dead.\n\n**Divine Health (Ex):** At 3rd level, a paladin gains immunity to all diseases, including supernatural and magical diseases.\n\n**Turn Undead (Su):**When a paladin reaches 4th level, she gains the supernatural ability to turn undead. She may use this ability a number of times per day equal to 3 + her Charisma modifier. She turns undead as a cleric of three levels lower would.\n\n**Spells:** Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells, which are drawn from the paladin spell list. A paladin must choose and prepare her spells in advance.\n\nTo prepare or cast a spell, a paladin must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a paladin's spell is 10 + the spell level + the paladin's Wisdom modifier.\n\nLike other spellcasters, a paladin can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Paladin. In addition, she receives bonus spells per day if she has a high Wisdom score. When Table: The Paladin indicates that the paladin gets 0 spells per day of a given spell level, she gains only the bonus spells she would be entitled to based on her Wisdom score for that spell level The paladin does not have access to any domain spells or granted powers, as a cleric does.\n\nA paladin prepares and casts spells the way a cleric does, though she cannot lose a prepared spell to spontaneously cast a *cure* spell in its place. A paladin may prepare and cast any spell on the paladin spell list, provided that she can cast spells of that level, but she must choose which spells to prepare during her daily meditation.\n\nThrough 3rd level, a paladin has no caster level. At 4th level and higher, her caster level is one-half her paladin level.\n\n***Special Mount* (Sp):** Upon reaching 5th level, a paladin gains the service of an unusually intelligent, strong, and loyal steed to serve her in her crusade against evil (see below). This mount is usually a heavy warhorse (for a Medium paladin) or a warpony (for a Small paladin).\n\nOnce per day, as a full-round action, a paladin may magically call her mount from the celestial realms in which it resides. This ability is the equivalent of a spell of a level equal to one-third the paladin's level. The mount immediately appears adjacent to the paladin and remains for 2 hours per paladin level; it may be dismissed at any time as a free action. The mount is the same creature each time it is summoned, though the paladin may release a particular mount from service.\n\nEach time the mount is called, it appears in full health, regardless of any damage it may have taken previously. The mount also appears wearing or carrying any gear it had when it was last dismissed. Calling a mount is a conjuration (calling) effect.\n\nShould the paladin's mount die, it immediately disappears, leaving behind any equipment it was carrying. The paladin may not summon another mount for thirty days or until she gains a paladin level, whichever comes first, even if the mount is somehow returned from the dead. During this thirty-day period, the paladin takes a -1 penalty on attack and weapon damage rolls.\n\n***Remove Disease* (Sp):** At 6th level, a paladin can produce a *Remove Disease* effect, as the spell, once per week. She can use this ability one additional time per week for every three levels after 6th (twice per week at 9th, three times at 12th, and so forth).\n\n**Code of Conduct:** A paladin must be of lawful good alignment and loses all class abilities if she ever willingly commits an evil act.\n\nAdditionally, a paladin's code requires that she respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help for evil or chaotic ends), and punish those who harm or threaten innocents.\n\n**Associates:** While she may adventure with characters of any good or neutral alignment, a paladin will never knowingly associate with evil characters, nor will she continue an association with someone who consistently offends her moral code. A paladin may accept only henchmen, followers, or cohorts who are lawful good.\n\n**Ex-Paladins**\n\nA paladin who ceases to be lawful good, who willfully commits an evil act, or who grossly violates the code of conduct loses all paladin spells and abilities (including the service of the paladin's mount, but not weapon, armor, and shield proficiencies). She may not progress any farther in levels as a paladin. She regains her abilities and advancement potential if she atones for her violations (see the *atonement* spell description), as appropriate.\n\nLike a member of any other class, a paladin may be a multiclass character, but multiclass paladins face a special restriction. A paladin who gains a level in any class other than paladin may never again raise her paladin level, though she retains all her paladin abilities.\n\nThe Paladin's Mount\n\nThe paladin's mount is superior to a normal mount of its kind and has special powers, as described below. The standard mount for a Medium paladin is a heavy warhorse, and the standard mount for a Small paladin is a warpony. Another kind of mount, such as a riding dog (for a halfling paladin) or a Large shark (for a paladin in an aquatic campaign) may be allowed as well.\n\nA paladin's mount is treated as a magical beast, not an animal, for the purpose of all effects that depend on its type (though it retains an animal's HD, base attack bonus, saves, skill points, and feats).\n\n**Paladin Level** | **Bonus HD** | **Natural Armor Adj**. | **Str Adj**. | **Int** | **Special**\n5th-7th | +2 | +4 | +1 | 6 | Empathic link, improved evasion, share spells, share saving throws\n8th-10th | +4 | +6 | +2 | 7 | Improved speed\n11th-14th | +6 | +8 | +3 | 8 | *Command* creatures of its kind\n15th-20th | +8 | +10 | +4 | 9 | Spell resistance\n\n**Paladin's Mount Basics:** Use the base statistics for a creature of the mount's kind, but make changes to take into account the attributes and characteristics summarized on the table and described below.\n\n*Bonus HD:* Extra eight-sided (d8) Hit Dice, each of which gains a Constitution modifier, as normal. Extra Hit Dice improve the mount's base attack and base save bonuses. A special mount's base attack bonus is equal to that of a cleric of a level equal to the mount's HD. A mount has good Fortitude and Reflex saves (treat it as a character whose level equals the animal's HD). The mount gains additional skill points or feats for bonus HD as normal for advancing a monster's Hit Dice.\n\n*Natural Armor Adj.:* The number on the table is an improvement to the mount's existing natural armor bonus.\n\n*Str Adj.:* Add this figure to the mount's Strength score.\n\n*Int:* The mount's Intelligence score.\n\n*Empathic Link (Su):* The paladin has an empathic link with her mount out to a distance of up to 1 mile. The paladin cannot see through the mount's eyes, but they can communicate empathically.\n\nNote that even intelligent mounts see the world differently from humans, so misunderstandings are always possible.\n\nBecause of this empathic link, the paladin has the same connection to an item or place that her mount does, just as with a master and his familiar (see Familiars).\n\n*Improved Evasion (Ex):* When subjected to an attack that normally allows a Reflex saving throw for half damage, a mount takes no damage if it makes a successful saving throw and half damage if the saving throw fails.\n\n*Share Spells:* At the paladin's option, she may have any spell (but not any spell-like ability) she casts on herself also affect her mount.\n\nThe mount must be within 5 feet at the time of casting to receive the benefit. If the spell or effect has a duration other than instantaneous, it stops affecting the mount if it moves farther than 5 feet away and will not affect the mount again even if it returns to the paladin before the duration expires. Additionally, the paladin may cast a spell with a target of 'You' on her mount (as a touch range spell) instead of on herself. A paladin and her mount can share spells even if the spells normally do not affect creatures of the mount's type (magical beast).\n\n*Share Saving Throws:* For each of its saving throws, the mount uses its own base save bonus or the paladin's, whichever is higher. The mount applies its own ability modifiers to saves, and it doesn't share any other bonuses on saves that the master might have.\n\n*Improved Speed (Ex):* The mount's speed increases by 10 feet.\n\n*Command (Sp):* Once per day per two paladin levels of its master, a mount can use this ability to command other any normal animal of approximately the same kind as itself (for warhorses and warponies, this category includes donkeys, mules, and ponies), as long as the target creature has fewer Hit Dice than the mount. This ability functions like the *Command* spell, but the mount must make a DC 21 Concentration check to succeed if it's being ridden at the time. If the check fails, the ability does not work that time, but it still counts against the mount's daily uses. Each target may attempt a Will save (DC 10 + 1/2 paladin's level + paladin's Cha modifier) to negate the effect.\n\n*Spell Resistance (Ex):* A mount's spell resistance equals its master's paladin level + 5. To affect the mount with a spell, a spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the mount's spell resistance.",
+    "effects": [],
+    "id": "srd:class:paladin",
+    "kind": "class",
+    "name": "Paladin",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "base"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:appraise",
+        "srd:skill:balance",
+        "srd:skill:bluff",
+        "srd:skill:climb",
+        "srd:skill:craft",
+        "srd:skill:disable-device",
+        "srd:skill:diplomacy",
+        "srd:skill:disguise",
+        "srd:skill:escape-artist",
+        "srd:skill:gather-information",
+        "srd:skill:hide",
+        "srd:skill:intimidate",
+        "srd:skill:jump",
+        "srd:skill:knowledge",
+        "srd:skill:listen",
+        "srd:skill:move-silently",
+        "srd:skill:open-lock",
+        "srd:skill:search",
+        "srd:skill:spot",
+        "srd:skill:survival",
+        "srd:skill:tumble",
+        "srd:skill:use-rope"
+      ],
+      "hitDie": 6,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Greater invisibility 1/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Improved legerdemain 1/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Incorporeal 1/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Shadow form 1/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Greater invisibility 2/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Improved legerdemain 2/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Incorporeal 2/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Shadow form 2/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        }
+      ],
+      "maxLevel": 10,
+      "proficiencies": "A perfect wight gains no proficiency with any weapons, armor, or shields.",
+      "requirements": [
+        {
+          "ranks": 24,
+          "skillId": "srd:skill:hide",
+          "type": "minSkillRanks"
+        },
+        {
+          "ranks": 24,
+          "skillId": "srd:skill:move-silently",
+          "type": "minSkillRanks"
+        },
+        {
+          "featId": "srd:feat:self-concealment",
+          "type": "hasFeat"
+        },
+        {
+          "text": "Sneak attack +10d6",
+          "type": "custom"
+        }
+      ],
+      "skillPointsPerLevel": 8
+    },
+    "description": "Perfect Wight\n\n**Hit Die:** d6.\n\n**Requirements**\n\nTo qualify to become a perfect wight, a character must fulfill all the following criteria.\n\n**Skills:** Hide 24 ranks, Move Silently 24 ranks.\n\n**Epic Feats:** Self-Concealment.\n\n**Special:** Sneak attack +10d6.\n\n**Class Skills**\n\nThe perfect wight's class skills (and the key ability for each skill) are Appraise (Int), Balance (Dex), Bluff (Cha), Climb (Str), Craft (Int), Disable Device (Int), Diplomacy (Cha), Disguise (Cha), Escape Artist (Dex), Gather Information (Cha), Hide (Dex), Intimidate (Wis), Jump (Str), Knowledge (any) (Int), Listen (Wis), Move Silently (Dex), Open Lock (Dex), Search (Int), Spot (Wis), Survival (Wis), Tumble (Dex), and Use Rope (Dex).\n\n**Skill Points at Each Level:** 8 + Int modifier.\n\n**Table: The Perfect Wight Level** | **Special**\n1st | Greater invisibility 1/day\n2nd | Improved legerdemain 1/day\n3rd | Incorporeal 1/day\n4th | Shadow form 1/day\n5th | Bonus feat\n6th | Greater invisibility 2/day\n7th | Improved legerdemain 2/day\n8th | Incorporeal 2/day\n9th | Shadow form 2/day\n10th | Bonus feat\n\n**Class Features**\n\nThe following are class features of the perfect wight prestige class.\n\n**Weapon and Armor Proficiency:** A perfect wight gains no proficiency with any weapons, armor, or shields.\n\n**Greater Invisibility (Su):** Starting at 1st level, the perfect wight gains the benefit of *greater invisibility* once per day, plus one additional time per day every five levels thereafter. The *greater invisibility* is as the spell cast by a 20th-level caster.\n\n**Improved Legerdemain (Su):** A perfect wight can perform the following class skills at a range of 30 feet: Disable Device, Open Lock, Pick Pocket, and Search. If desired, the perfect wight can take 10 on the check. Any object manipulated during the skill check must weigh 100 pounds or less. Alternatively, the perfect wight can use improved legerdemain to make one melee sneak attack against any creature within 30 feet. The perfect wight executes the sneak attack (or death attack, if applicable) as if attacking from a flanking position. If the attack is successful, the victim is dealt the appropriate sneak attack damage despite the fact that the perfect wight and his or her weapon do not physically cross the intervening distance. A perfect wight can use improved legerdemain once per day at 2nd level, plus one additional time per day every five levels thereafter.\n\n**Incorporeal (Su):** At 3rd level, the perfect wight can become incorporeal once per day, plus one additional time per day every five levels thereafter. A perfect wight can remain incorporeal for a number of rounds equal to 20 + his or her perfect wight level. As an incorporeal creature, the perfect wight can be harmed only by other incorporeal creatures, +1 or better magic weapons, and spells, spell-like abilities, and supernatural abilities. He or she is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, the perfect wight has a 50% chance to ignore any damage from a corporeal source (except for force effects or attacks made with ghost touch weapons). An incorporeal perfect wight has no natural armor but has a deflection bonus equal to his or her Charisma modifier (always at least +1, even if his or her Charisma score does not normally provide a bonus). An incorporeal perfect wight can pass through solid objects at will, but not force effects. His or her attack ignores natural armor, armor, and shields, although deflection bonuses and force effects work normally against it. An incorporeal perfect wight moves silently and cannot be heard with Listen checks if he or she doesn't wish to be. While incorporeal, the perfect wight has no Strength score, so his or her Dexterity modifier applies to both melee and ranged attacks.\n\n**Shadow Form (Su):** At 4th level, the perfect wight can take shadow form once per day, plus one additional time per day every five levels thereafter. The perfect wight's shadow form lasts 1 minute per level of the prestige class. While in shadow form the perfect wight is incorporeal (see above), is immune to critical hits, and can fly at a speed of 100 feet (good). The perfect wight can also use the substance of his or her own shadow to enhance his or her effective level on any attack roll, check, or saving throw. Drawing power from his or her own shadow form deals the perfect wight 7 points of damage for each +1 bonus on a single roll or +1 effective level for any other single use.\n\n**Bonus Feats:** The perfect wight gets a bonus feat at 5th level and an additional bonus feat every five levels thereafter. These bonus feats must be selected from the following list: Blinding Speed, Combat Archery, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Trapfinding, Improved Combat Reflexes, Improved Sneak Attack, Legendary Climber, Lingering Damage, Self-Concealment, Sneak Attack of Opportunity, Spellcasting Harrier, Superior Initiative, Uncanny Accuracy.",
+    "effects": [],
+    "id": "srd:class:perfect-wight",
+    "kind": "class",
+    "name": "Perfect Wight",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "prestige",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:climb",
+        "srd:skill:concentration",
+        "srd:skill:craft",
+        "srd:skill:handle-animal",
+        "srd:skill:heal",
+        "srd:skill:hide",
+        "srd:skill:jump",
+        "srd:skill:knowledge",
+        "srd:skill:listen",
+        "srd:skill:move-silently",
+        "srd:skill:profession",
+        "srd:skill:ride",
+        "srd:skill:search",
+        "srd:skill:spot",
+        "srd:skill:survival",
+        "srd:skill:swim",
+        "srd:skill:use-rope"
+      ],
+      "hitDie": 8,
+      "levels": [
+        {
+          "bab": 1,
+          "features": [
+            {
+              "effects": [],
+              "name": "1st favored enemy"
+            },
+            {
+              "effects": [],
+              "name": "Track"
+            },
+            {
+              "effects": [],
+              "name": "wild empathy"
+            }
+          ],
+          "fort": 2,
+          "ref": 2,
+          "spellsPerDay": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 0
+        },
+        {
+          "bab": 2,
+          "features": [
+            {
+              "effects": [],
+              "name": "Combat style"
+            }
+          ],
+          "fort": 3,
+          "ref": 3,
+          "spellsPerDay": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 0
+        },
+        {
+          "bab": 3,
+          "features": [
+            {
+              "effects": [],
+              "name": "Endurance"
+            }
+          ],
+          "fort": 3,
+          "ref": 3,
+          "spellsPerDay": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 1
+        },
+        {
+          "bab": 4,
+          "features": [
+            {
+              "effects": [],
+              "name": "Animal companion"
+            }
+          ],
+          "fort": 4,
+          "ref": 4,
+          "spellsPerDay": [
+            null,
+            0,
+            null,
+            null,
+            null
+          ],
+          "will": 1
+        },
+        {
+          "bab": 5,
+          "features": [
+            {
+              "effects": [],
+              "name": "2nd favored enemy"
+            }
+          ],
+          "fort": 4,
+          "ref": 4,
+          "spellsPerDay": [
+            null,
+            0,
+            null,
+            null,
+            null
+          ],
+          "will": 1
+        },
+        {
+          "bab": 6,
+          "features": [
+            {
+              "effects": [],
+              "name": "Improved combat style"
+            }
+          ],
+          "fort": 5,
+          "ref": 5,
+          "spellsPerDay": [
+            null,
+            1,
+            null,
+            null,
+            null
+          ],
+          "will": 2
+        },
+        {
+          "bab": 7,
+          "features": [
+            {
+              "effects": [],
+              "name": "Woodland stride"
+            }
+          ],
+          "fort": 5,
+          "ref": 5,
+          "spellsPerDay": [
+            null,
+            1,
+            null,
+            null,
+            null
+          ],
+          "will": 2
+        },
+        {
+          "bab": 8,
+          "features": [
+            {
+              "effects": [],
+              "name": "Swift tracker"
+            }
+          ],
+          "fort": 6,
+          "ref": 6,
+          "spellsPerDay": [
+            null,
+            1,
+            0,
+            null,
+            null
+          ],
+          "will": 2
+        },
+        {
+          "bab": 9,
+          "features": [
+            {
+              "effects": [],
+              "name": "Evasion"
+            }
+          ],
+          "fort": 6,
+          "ref": 6,
+          "spellsPerDay": [
+            null,
+            1,
+            0,
+            null,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 10,
+          "features": [
+            {
+              "effects": [],
+              "name": "3rd favored enemy"
+            }
+          ],
+          "fort": 7,
+          "ref": 7,
+          "spellsPerDay": [
+            null,
+            1,
+            1,
+            null,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 11,
+          "features": [
+            {
+              "effects": [],
+              "name": "Combat style mastery"
+            }
+          ],
+          "fort": 7,
+          "ref": 7,
+          "spellsPerDay": [
+            null,
+            1,
+            1,
+            0,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 12,
+          "features": [],
+          "fort": 8,
+          "ref": 8,
+          "spellsPerDay": [
+            null,
+            1,
+            1,
+            1,
+            null
+          ],
+          "will": 4
+        },
+        {
+          "bab": 13,
+          "features": [
+            {
+              "effects": [],
+              "name": "Camouflage"
+            }
+          ],
+          "fort": 8,
+          "ref": 8,
+          "spellsPerDay": [
+            null,
+            1,
+            1,
+            1,
+            null
+          ],
+          "will": 4
+        },
+        {
+          "bab": 14,
+          "features": [],
+          "fort": 9,
+          "ref": 9,
+          "spellsPerDay": [
+            null,
+            2,
+            1,
+            1,
+            0
+          ],
+          "will": 4
+        },
+        {
+          "bab": 15,
+          "features": [
+            {
+              "effects": [],
+              "name": "4th favored enemy"
+            }
+          ],
+          "fort": 9,
+          "ref": 9,
+          "spellsPerDay": [
+            null,
+            2,
+            1,
+            1,
+            1
+          ],
+          "will": 5
+        },
+        {
+          "bab": 16,
+          "features": [],
+          "fort": 10,
+          "ref": 10,
+          "spellsPerDay": [
+            null,
+            2,
+            2,
+            1,
+            1
+          ],
+          "will": 5
+        },
+        {
+          "bab": 17,
+          "features": [
+            {
+              "effects": [],
+              "name": "Hide in plain sight"
+            }
+          ],
+          "fort": 10,
+          "ref": 10,
+          "spellsPerDay": [
+            null,
+            2,
+            2,
+            2,
+            1
+          ],
+          "will": 5
+        },
+        {
+          "bab": 18,
+          "features": [],
+          "fort": 11,
+          "ref": 11,
+          "spellsPerDay": [
+            null,
+            3,
+            2,
+            2,
+            1
+          ],
+          "will": 6
+        },
+        {
+          "bab": 19,
+          "features": [],
+          "fort": 11,
+          "ref": 11,
+          "spellsPerDay": [
+            null,
+            3,
+            3,
+            3,
+            2
+          ],
+          "will": 6
+        },
+        {
+          "bab": 20,
+          "features": [
+            {
+              "effects": [],
+              "name": "5th favored enemy"
+            }
+          ],
+          "fort": 12,
+          "ref": 12,
+          "spellsPerDay": [
+            null,
+            3,
+            3,
+            3,
+            3
+          ],
+          "template": {
+            "bab": "good",
+            "fort": "good",
+            "ref": "good",
+            "will": "poor"
+          },
+          "will": 6
+        }
+      ],
+      "maxLevel": 20,
+      "proficiencies": "A ranger is proficient with all simple and martial weapons, and with light armor and shields (except tower shields).",
+      "requirements": [],
+      "skillPointsPerLevel": 6,
+      "spellcasting": {
+        "ability": "wis",
+        "armorFailure": false,
+        "bonusSlots": true,
+        "model": "prepared",
+        "spellListId": "srd:spelllist:ranger"
+      }
+    },
+    "description": "Ranger\n\n**Alignment:** Any.\n\n**Hit Die:** d8.\n\n**Class Skills**\n\nThe ranger's class skills (and the key ability for each skill) are Climb (Str), Concentration (Con), Craft (Int), Handle Animal (Cha), Heal (Wis), Hide (Dex), Jump (Str), Knowledge (dungeoneering) (Int), Knowledge (geography) (Int), Knowledge (nature) (Int), Listen (Wis), Move Silently (Dex), Profession (Wis), Ride (Dex), Search (Int), Spot (Wis), Survival (Wis), Swim (Str), and Use Rope (Dex).\n\n**Skill Points at 1st Level:** (6 + Int modifier) x4.\n\n**Skill Points at Each Additional Level:** 6 + Int modifier.\n\n**Table: The Ranger -Spells per Day- Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Special** | **1st** | **2nd** | **3rd** | **4th**\n1st | +1 | +2 | +2 | +0 | 1st favored enemy, Track, wild empathy | - | - | - | -\n2nd | +2 | +3 | +3 | +0 | Combat style | - | - | - | -\n3rd | +3 | +3 | +3 | +1 | Endurance | - | - | - | -\n4th | +4 | +4 | +4 | +1 | Animal companion | 0 | - | - | -\n5th | +5 | +4 | +4 | +1 | 2nd favored enemy | 0 | - | - | -\n6th | +6/+1 | +5 | +5 | +2 | Improved combat style | 1 | - | - | -\n7th | +7/+2 | +5 | +5 | +2 | Woodland stride | 1 | - | - | -\n8th | +8/+3 | +6 | +6 | +2 | Swift tracker | 1 | 0 | - | -\n9th | +9/+4 | +6 | +6 | +3 | Evasion | 1 | 0 | - | -\n10th | +10/+5 | +7 | +7 | +3 | 3rd favored enemy | 1 | 1 | - | -\n11th | +11/+6/+1 | +7 | +7 | +3 | Combat style mastery | 1 | 1 | 0 | -\n12th | +12/+7/+2 | +8 | +8 | +4 | 1 | 1 | 1 | -\n13th | +13/+8/+3 | +8 | +8 | +4 | Camouflage | 1 | 1 | 1 | -\n14th | +14/+9/+4 | +9 | +9 | +4 | 2 | 1 | 1 | 0\n15th | +15/+10/+5 | +9 | +9 | +5 | 4th favored enemy | 2 | 1 | 1 | 1\n16th | +16/+11/+6/+1 | +10 | +10 | +5 | 2 | 2 | 1 | 1\n17th | +17/+12/+7/+2 | +10 | +10 | +5 | Hide in plain sight | 2 | 2 | 2 | 1\n18th | +18/+13/+8/+3 | +11 | +11 | +6 | 3 | 2 | 2 | 1\n19th | +19/+14/+9/+4 | +11 | +11 | +6 | 3 | 3 | 3 | 2\n20th | +20/+15/+10/+5 | +12 | +12 | +6 | 5th favored enemy | 3 | 3 | 3 | 3\n\n**Class Features**\n\nAll of the following are class features of the ranger.\n\n**Weapon and Armor Proficiency:** A ranger is proficient with all simple and martial weapons, and with light armor and shields (except tower shields).\n\n**Favored Enemy (Ex):** At 1st level, a ranger may select a type of creature from among those given on Table: Ranger Favored Enemies. The ranger gains a +2 bonus on Bluff, Listen, Sense Motive, Spot, and Survival checks when using these skills against creatures of this type. Likewise, he gets a +2 bonus on weapon damage rolls against such creatures.\n\nAt 5th level and every five levels thereafter (10th, 15th, and 20th level), the ranger may select an additional favored enemy from those given on the table. In addition, at each such interval, the bonus against any one favored enemy (including the one just selected, if so desired) increases by 2.\n\nIf the ranger chooses humanoids or outsiders as a favored enemy, he must also choose an associated subtype, as indicated on the table. If a specific creature falls into more than one category of favored enemy, the ranger's bonuses do not stack; he simply uses whichever bonus is higher.\n\n**Table: Ranger Favored Enemies Type (Subtype)** | **Type (Subtype)**\nAberration | Humanoid (reptilian)\nAnimal | Magical beast\nConstruct | Monstrous humanoid\nDragon | Ooze\nElemental | Outsider (air)\nFey | Outsider (chaotic)\nGiant | Outsider (earth)\nHumanoid (aquatic) | Outsider (evil)\nHumanoid (dwarf) | Outsider (fire)\nHumanoid (elf) | Outsider (good)\nHumanoid (goblinoid) | Outsider (lawful)\nHumanoid (gnoll) | Outsider (native)\nHumanoid (gnome) | Outsider (water)\nHumanoid (halfling) | Plant\nHumanoid (human) | Undead\nHumanoid (orc) | Vermin\n\n**Track:** A ranger gains Track as a bonus feat.\n\n**Wild Empathy (Ex):** A ranger can improve the attitude of an animal. This ability functions just like a Diplomacy check to improve the attitude of a person. The ranger rolls 1d20 and adds his ranger level and his Charisma bonus to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.\n\nTo use wild empathy, the ranger and the animal must be able to study each other, which means that they must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time.\n\nThe ranger can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but he takes a -4 penalty on the check.\n\n**Combat Style (Ex):** At 2nd level, a ranger must select one of two combat styles to pursue: archery or two-weapon combat. This choice affects the character's class features but does not restrict his selection of feats or special abilities in any way.\n\nIf the ranger selects archery, he is treated as having the Rapid Shot feat, even if he does not have the normal prerequisites for that feat.\n\nIf the ranger selects two-weapon combat, he is treated as having the Two-Weapon Fighting feat, even if he does not have the normal prerequisites for that feat.\n\nThe benefits of the ranger's chosen style apply only when he wears light or no armor. He loses all benefits of his combat style when wearing medium or heavy armor.\n\n**Endurance:** A ranger gains Endurance as a bonus feat at 3rd level.\n\n**Animal Companion (Ex):** At 4th level, a ranger gains an animal companion selected from the following list: badger, camel, dire rat, dog, riding dog, eagle, hawk, horse (light or heavy), owl, pony, snake (Small or Medium viper), or wolf. If the campaign takes place wholly or partly in an aquatic environment, the following creatures may be added to the ranger's list of options: crocodile, porpoise, Medium shark, and squid. This animal is a loyal companion that accompanies the ranger on his adventures as appropriate for its kind.\n\nThis ability functions like the druid ability of the same name, except that the ranger's effective druid level is one-half his ranger level. A ranger may select from the alternative lists of animal companions just as a druid can, though again his effective druid level is half his ranger level. Like a druid, a ranger cannot select an alternative animal if the choice would reduce his effective druid level below 1st.\n\n**Spells:** Beginning at 4th level, a ranger gains the ability to cast a small number of divine spells, which are drawn from the ranger spell list. A ranger must choose and prepare his spells in advance (see below).\n\nTo prepare or cast a spell, a ranger must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a ranger's spell is 10 + the spell level + the ranger's Wisdom modifier.\n\nLike other spellcasters, a ranger can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Ranger. In addition, he receives bonus spells per day if he has a high Wisdom score. When Table: The Ranger indicates that the ranger gets 0 spells per day of a given spell level, he gains only the bonus spells he would be entitled to based on his Wisdom score for that spell level. The ranger does not have access to any domain spells or granted powers, as a cleric does.\n\nA ranger prepares and casts spells the way a cleric does, though he cannot lose a prepared spell to cast a *cure* spell in its place. A ranger may prepare and cast any spell on the ranger spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.\n\nThrough 3rd level, a ranger has no caster level. At 4th level and higher, his caster level is one-half his ranger level.\n\n**Improved Combat Style (Ex):** At 6th level, a ranger's aptitude in his chosen combat style (archery or two-weapon combat) improves. If he selected archery at 2nd level, he is treated as having the Manyshot feat, even if he does not have the normal prerequisites for that feat.\n\nIf the ranger selected two-weapon combat at 2nd level, he is treated as having the Improved Two-Weapon Fighting feat, even if he does not have the normal prerequisites for that feat.\n\nAs before, the benefits of the ranger's chosen style apply only when he wears light or no armor. He loses all benefits of his combat style when wearing medium or heavy armor.\n\n**Woodland Stride (Ex):** Starting at 7th level, a ranger may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment.\n\nHowever, thorns, briars, and overgrown areas that are enchanted or magically manipulated to impede motion still affect him.\n\n**Swift Tracker (Ex):** Beginning at 8th level, a ranger can move at his normal speed while following tracks without taking the normal -5 penalty. He takes only a -10 penalty (instead of the normal -20) when moving at up to twice normal speed while tracking.\n\n**Evasion (Ex):** At 9th level, a ranger can avoid even magical and unusual attacks with great agility. If he makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the ranger is wearing light armor or no armor. A helpless ranger does not gain the benefit of evasion.\n\n**Combat Style Mastery (Ex):** At 11th level, a ranger's aptitude in his chosen combat style (archery or two-weapon combat) improves again. If he selected archery at 2nd level, he is treated as having the Improved Precise Shot feat, even if he does not have the normal prerequisites for that feat.\n\nIf the ranger selected two-weapon combat at 2nd level, he is treated as having the Greater Two-Weapon Fighting feat, even if he does not have the normal prerequisites for that feat.\n\nAs before, the benefits of the ranger's chosen style apply only when he wears light or no armor. He loses all benefits of his combat style when wearing medium or heavy armor.\n\n**Camouflage (Ex):** A ranger of 13th level or higher can use the Hide skill in any sort of natural terrain, even if the terrain doesn't grant cover or concealment.\n\n**Hide in Plain Sight (Ex):** While in any sort of natural terrain, a ranger of 17th level or higher can use the Hide skill even while being observed.",
+    "effects": [],
+    "id": "srd:class:ranger",
+    "kind": "class",
+    "name": "Ranger",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "base"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:appraise",
+        "srd:skill:balance",
+        "srd:skill:bluff",
+        "srd:skill:climb",
+        "srd:skill:craft",
+        "srd:skill:decipher-script",
+        "srd:skill:diplomacy",
+        "srd:skill:disable-device",
+        "srd:skill:disguise",
+        "srd:skill:escape-artist",
+        "srd:skill:forgery",
+        "srd:skill:gather-information",
+        "srd:skill:hide",
+        "srd:skill:intimidate",
+        "srd:skill:jump",
+        "srd:skill:knowledge",
+        "srd:skill:listen",
+        "srd:skill:move-silently",
+        "srd:skill:open-lock",
+        "srd:skill:perform",
+        "srd:skill:profession",
+        "srd:skill:search",
+        "srd:skill:sense-motive",
+        "srd:skill:sleight-of-hand",
+        "srd:skill:spot",
+        "srd:skill:swim",
+        "srd:skill:tumble",
+        "srd:skill:use-magic-device",
+        "srd:skill:use-rope"
+      ],
+      "hitDie": 6,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +1d6"
+            },
+            {
+              "effects": [],
+              "name": "trapfinding"
+            }
+          ],
+          "fort": 0,
+          "ref": 2,
+          "will": 0
+        },
+        {
+          "bab": 1,
+          "features": [
+            {
+              "effects": [],
+              "name": "Evasion"
+            }
+          ],
+          "fort": 0,
+          "ref": 3,
+          "will": 0
+        },
+        {
+          "bab": 2,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +2d6"
+            },
+            {
+              "effects": [],
+              "name": "trap sense +1"
+            }
+          ],
+          "fort": 1,
+          "ref": 3,
+          "will": 1
+        },
+        {
+          "bab": 3,
+          "features": [
+            {
+              "effects": [],
+              "name": "Uncanny dodge"
+            }
+          ],
+          "fort": 1,
+          "ref": 4,
+          "will": 1
+        },
+        {
+          "bab": 3,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +3d6"
+            }
+          ],
+          "fort": 1,
+          "ref": 4,
+          "will": 1
+        },
+        {
+          "bab": 4,
+          "features": [
+            {
+              "effects": [],
+              "name": "Trap sense +2"
+            }
+          ],
+          "fort": 2,
+          "ref": 5,
+          "will": 2
+        },
+        {
+          "bab": 5,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +4d6"
+            }
+          ],
+          "fort": 2,
+          "ref": 5,
+          "will": 2
+        },
+        {
+          "bab": 6,
+          "features": [
+            {
+              "effects": [],
+              "name": "Improved uncanny dodge"
+            }
+          ],
+          "fort": 2,
+          "ref": 6,
+          "will": 2
+        },
+        {
+          "bab": 6,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +5d6"
+            },
+            {
+              "effects": [],
+              "name": "trap sense +3"
+            }
+          ],
+          "fort": 3,
+          "ref": 6,
+          "will": 3
+        },
+        {
+          "bab": 7,
+          "features": [
+            {
+              "effects": [],
+              "name": "Special ability"
+            }
+          ],
+          "fort": 3,
+          "ref": 7,
+          "will": 3
+        },
+        {
+          "bab": 8,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +6d6"
+            }
+          ],
+          "fort": 3,
+          "ref": 7,
+          "will": 3
+        },
+        {
+          "bab": 9,
+          "features": [
+            {
+              "effects": [],
+              "name": "Trap sense +4"
+            }
+          ],
+          "fort": 4,
+          "ref": 8,
+          "will": 4
+        },
+        {
+          "bab": 9,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +7d6"
+            },
+            {
+              "effects": [],
+              "name": "special ability"
+            }
+          ],
+          "fort": 4,
+          "ref": 8,
+          "will": 4
+        },
+        {
+          "bab": 10,
+          "features": [],
+          "fort": 4,
+          "ref": 9,
+          "will": 4
+        },
+        {
+          "bab": 11,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +8d6"
+            },
+            {
+              "effects": [],
+              "name": "trap sense +5"
+            }
+          ],
+          "fort": 5,
+          "ref": 9,
+          "will": 5
+        },
+        {
+          "bab": 12,
+          "features": [
+            {
+              "effects": [],
+              "name": "Special ability"
+            }
+          ],
+          "fort": 5,
+          "ref": 10,
+          "will": 5
+        },
+        {
+          "bab": 12,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +9d6"
+            }
+          ],
+          "fort": 5,
+          "ref": 10,
+          "will": 5
+        },
+        {
+          "bab": 13,
+          "features": [
+            {
+              "effects": [],
+              "name": "Trap sense +6"
+            }
+          ],
+          "fort": 6,
+          "ref": 11,
+          "will": 6
+        },
+        {
+          "bab": 14,
+          "features": [
+            {
+              "effects": [],
+              "name": "Sneak attack +10d6"
+            },
+            {
+              "effects": [],
+              "name": "special ability"
+            }
+          ],
+          "fort": 6,
+          "ref": 11,
+          "will": 6
+        },
+        {
+          "bab": 15,
+          "features": [],
+          "fort": 6,
+          "ref": 12,
+          "template": {
+            "bab": "average",
+            "fort": "poor",
+            "ref": "good",
+            "will": "poor"
+          },
+          "will": 6
+        }
+      ],
+      "maxLevel": 20,
+      "proficiencies": "Rogues are proficient with all simple weapons, plus the hand crossbow, rapier, sap, shortbow, and short sword. Rogues are proficient with light armor, but not with shields.",
+      "requirements": [],
+      "skillPointsPerLevel": 8
+    },
+    "description": "Rogue\n\n**Alignment:** Any.\n\n**Hit Die:** d6.\n\n**Class Skills**\n\nThe rogue's class skills (and the key ability for each skill) are Appraise (Int), Balance (Dex), Bluff (Cha), Climb (Str), Craft (Int), Decipher Script (Int), Diplomacy (Cha), Disable Device (Int), Disguise (Cha), Escape Artist (Dex), Forgery (Int), Gather Information (Cha), Hide (Dex), Intimidate (Cha), Jump (Str), Knowledge (local) (Int), Listen (Wis), Move Silently (Dex), Open Lock (Dex), Perform (Cha), Profession (Wis), Search (Int), Sense Motive (Wis), Sleight of Hand (Dex), Spot (Wis), Swim (Str), Tumble (Dex), Use Magic Device (Cha), and Use Rope (Dex).\n\n**Skill Points at 1st Level:** (8 + Int modifier) x4.\n\n**Skill Points at Each Additional Level:** 8 + Int modifier.\n\n**Table: The Rogue Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Special**\n1st | +0 | +0 | +2 | +0 | Sneak attack +1d6, trapfinding\n2nd | +1 | +0 | +3 | +0 | Evasion\n3rd | +2 | +1 | +3 | +1 | Sneak attack +2d6, trap sense +1\n4th | +3 | +1 | +4 | +1 | Uncanny dodge\n5th | +3 | +1 | +4 | +1 | Sneak attack +3d6\n6th | +4 | +2 | +5 | +2 | Trap sense +2\n7th | +5 | +2 | +5 | +2 | Sneak attack +4d6\n8th | +6/+1 | +2 | +6 | +2 | Improved uncanny dodge\n9th | +6/+1 | +3 | +6 | +3 | Sneak attack +5d6, trap sense +3\n10th | +7/+2 | +3 | +7 | +3 | Special ability\n11th | +8/+3 | +3 | +7 | +3 | Sneak attack +6d6\n12th | +9/+4 | +4 | +8 | +4 | Trap sense +4\n13th | +9/+4 | +4 | +8 | +4 | Sneak attack +7d6, special ability\n14th | +10/+5 | +4 | +9 | +4 | -\n15th | +11/+6/+1 | +5 | +9 | +5 | Sneak attack +8d6, trap sense +5\n16th | +12/+7/+2 | +5 | +10 | +5 | Special ability\n17th | +12/+7/+2 | +5 | +10 | +5 | Sneak attack +9d6\n18th | +13/+8/+3 | +6 | +11 | +6 | Trap sense +6\n19th | +14/+9/+4 | +6 | +11 | +6 | Sneak attack +10d6, special ability\n20th | +15/+10/+5 | +6 | +12 | +6 | -\n\n**Class Features**\n\nAll of the following are class features of the rogue.\n\n**Weapon and Armor Proficiency:** Rogues are proficient with all simple weapons, plus the hand crossbow, rapier, sap, shortbow, and short sword. Rogues are proficient with light armor, but not with shields.\n\n**Sneak Attack:** If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.\n\nThe rogue's attack deals extra damage any time her target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the rogue flanks her target. This extra damage is 1d6 at 1st level, and it increases by 1d6 every two rogue levels thereafter. Should the rogue score a critical hit with a sneak attack, this extra damage is not multiplied.\n\nRanged attacks can count as sneak attacks only if the target is within 30 feet.\n\nWith a sap (blackjack) or an unarmed strike, a rogue can make a sneak attack that deals nonlethal damage instead of lethal damage. She cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.\n\nA rogue can sneak attack only living creatures with discernible anatomies-undead, constructs, oozes, plants, and incorporeal creatures lack vital areas to attack. Any creature that is immune to critical hits is not vulnerable to sneak attacks. The rogue must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A rogue cannot sneak attack while striking a creature with concealment or striking the limbs of a creature whose vitals are beyond reach.\n\n**Trapfinding:** Rogues (and only rogues) can use the Search skill to locate traps when the task has a Difficulty Class higher than 20.\n\nFinding a nonmagical trap has a DC of at least 20, or higher if it is well hidden. Finding a magic trap has a DC of 25 + the level of the spell used to create it.\n\nRogues (and only rogues) can use the Disable Device skill to disarm magic traps. A magic trap generally has a DC of 25 + the level of the spell used to create it.\n\nA rogue who beats a trap's DC by 10 or more with a Disable Device check can study a trap, figure out how it works, and bypass it (with her party) without disarming it.\n\n**Evasion (Ex):** At 2nd level and higher, a rogue can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the rogue is wearing light armor or no armor. A helpless rogue does not gain the benefit of evasion.\n\n**Trap Sense (Ex):** At 3rd level, a rogue gains an intuitive sense that alerts her to danger from traps, giving her a +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks made by traps. These bonuses rise to +2 when the rogue reaches 6th level, to +3 when she reaches 9th level, to +4 when she reaches 12th level, to +5 at 15th, and to +6 at 18th level.\n\nTrap sense bonuses gained from multiple classes stack.\n\n**Uncanny Dodge (Ex):** Starting at 4th level, a rogue can react to danger before her senses would normally allow her to do so. She retains her Dexterity bonus to AC (if any) even if she is caught flat-footed or struck by an invisible attacker. However, she still loses her Dexterity bonus to AC if immobilized.\n\nIf a rogue already has uncanny dodge from a different class she automatically gains improved uncanny dodge (see below) instead.\n\n**Improved Uncanny Dodge (Ex):** A rogue of 8th level or higher can no longer be flanked.\n\nThis defense denies another rogue the ability to sneak attack the character by flanking her, unless the attacker has at least four more rogue levels than the target does.\n\nIf a character already has uncanny dodge (see above) from a second class, the character automatically gains improved uncanny dodge instead, and the levels from the classes that grant uncanny dodge stack to determine the minimum rogue level required to flank the character.\n\n**Special Abilities:** On attaining 10th level, and at every three levels thereafter (13th, 16th, and 19th), a rogue gains a special ability of her choice from among the following options.\n\n*Crippling Strike (Ex):* A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of Strength damage. Ability points lost to damage return on their own at the rate of 1 point per day for each damaged ability.\n\n*Defensive Roll (Ex):* The rogue can roll with a potentially lethal blow to take less damage from it than she otherwise would. Once per day, when she would be reduced to 0 or fewer hit points by damage in combat (from a weapon or other blow, not a spell or special ability), the rogue can attempt to roll with the damage. To use this ability, the rogue must attempt a Reflex saving throw (DC = damage dealt). If the save succeeds, she takes only half damage from the blow; if it fails, she takes full damage. She must be aware of the attack and able to react to it in order to execute her defensive roll-if she is denied her Dexterity bonus to AC, she can't use this ability. Since this effect would not normally allow a character to make a Reflex save for half damage, the rogue's evasion ability does not apply to the defensive roll.\n\n*Improved Evasion (Ex):* This ability works like evasion, except that while the rogue still takes no damage on a successful Reflex saving throw against attacks henceforth she henceforth takes only half damage on a failed save. A helpless rogue does not gain the benefit of improved evasion.\n\n*Opportunist (Ex):* Once per round, the rogue can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as the rogue's attack of opportunity for that round. Even a rogue with the Combat Reflexes feat can't use the opportunist ability more than once per round.\n\n*Skill Mastery:* The rogue becomes so certain in the use of certain skills that she can use them reliably even under adverse conditions.\n\nUpon gaining this ability, she selects a number of skills equal to 3 + her Intelligence modifier. When making a skill check with one of these skills, she may take 10 even if stress and distractions would normally prevent her from doing so. A rogue may gain this special ability multiple times, selecting additional skills for it to apply to each time.\n\n*Slippery Mind (Ex):* This ability represents the rogue's ability to wriggle free from magical effects that would otherwise control or compel her. If a rogue with slippery mind is affected by an enchantment spell or effect and fails her saving throw, she can attempt it again 1 round later at the same DC. She gets only this one extra chance to succeed on her saving throw.\n\n*Feat:* A rogue may gain a bonus feat in place of a special ability.",
+    "effects": [],
+    "id": "srd:class:rogue",
+    "kind": "class",
+    "name": "Rogue",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "base"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:balance",
+        "srd:skill:bluff",
+        "srd:skill:decipher-script",
+        "srd:skill:diplomacy",
+        "srd:skill:disguise",
+        "srd:skill:escape-artist",
+        "srd:skill:hide",
+        "srd:skill:jump",
+        "srd:skill:listen",
+        "srd:skill:move-silently",
+        "srd:skill:perform",
+        "srd:skill:profession",
+        "srd:skill:search",
+        "srd:skill:sleight-of-hand",
+        "srd:skill:spot",
+        "srd:skill:tumble",
+        "srd:skill:use-rope"
+      ],
+      "hitDie": 8,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Hide in plain sight"
+            }
+          ],
+          "fort": 0,
+          "ref": 2,
+          "will": 0
+        },
+        {
+          "bab": 1,
+          "features": [
+            {
+              "effects": [],
+              "name": "Evasion"
+            },
+            {
+              "effects": [],
+              "name": "darkvision"
+            },
+            {
+              "effects": [],
+              "name": "uncanny dodge"
+            }
+          ],
+          "fort": 0,
+          "ref": 3,
+          "will": 0
+        },
+        {
+          "bab": 2,
+          "features": [
+            {
+              "effects": [],
+              "name": "Shadow illusion"
+            },
+            {
+              "effects": [],
+              "name": "summon shadow"
+            }
+          ],
+          "fort": 1,
+          "ref": 3,
+          "will": 1
+        },
+        {
+          "bab": 3,
+          "features": [
+            {
+              "effects": [],
+              "name": "Shadow jump 20 ft."
+            }
+          ],
+          "fort": 1,
+          "ref": 4,
+          "will": 1
+        },
+        {
+          "bab": 3,
+          "features": [
+            {
+              "effects": [],
+              "name": "Defensive roll"
+            },
+            {
+              "effects": [],
+              "name": "improved uncanny dodge"
+            }
+          ],
+          "fort": 1,
+          "ref": 4,
+          "will": 1
+        },
+        {
+          "bab": 4,
+          "features": [
+            {
+              "effects": [],
+              "name": "Shadow jump 40 ft."
+            },
+            {
+              "effects": [],
+              "name": "summon shadow"
+            }
+          ],
+          "fort": 2,
+          "ref": 5,
+          "will": 2
+        },
+        {
+          "bab": 5,
+          "features": [
+            {
+              "effects": [],
+              "name": "Slippery mind"
+            }
+          ],
+          "fort": 2,
+          "ref": 5,
+          "will": 2
+        },
+        {
+          "bab": 6,
+          "features": [
+            {
+              "effects": [],
+              "name": "Shadow jump 80 ft."
+            }
+          ],
+          "fort": 2,
+          "ref": 6,
+          "will": 2
+        },
+        {
+          "bab": 6,
+          "features": [
+            {
+              "effects": [],
+              "name": "Summon shadow"
+            }
+          ],
+          "fort": 3,
+          "ref": 6,
+          "will": 3
+        },
+        {
+          "bab": 7,
+          "features": [
+            {
+              "effects": [],
+              "name": "Shadow jump 160 ft."
+            },
+            {
+              "effects": [],
+              "name": "improved evasion"
+            }
+          ],
+          "fort": 3,
+          "ref": 7,
+          "template": {
+            "bab": "average",
+            "fort": "poor",
+            "ref": "good",
+            "will": "poor"
+          },
+          "will": 3
+        }
+      ],
+      "maxLevel": 10,
+      "proficiencies": "Shadowdancers are proficient with the club, crossbow (hand, light, or heavy), dagger (any type), dart, mace, morningstar, quarterstaff, rapier, sap, shortbow (normal and composite), and short sword. Shadowdancers are proficient with light armor but not with shields.",
+      "requirements": [
+        {
+          "ranks": 8,
+          "skillId": "srd:skill:move-silently",
+          "type": "minSkillRanks"
+        },
+        {
+          "ranks": 10,
+          "skillId": "srd:skill:hide",
+          "type": "minSkillRanks"
+        },
+        {
+          "ranks": 5,
+          "skillId": "srd:skill:perform",
+          "type": "minSkillRanks"
+        },
+        {
+          "featId": "srd:feat:combat-reflexes",
+          "type": "hasFeat"
+        },
+        {
+          "featId": "srd:feat:dodge",
+          "type": "hasFeat"
+        },
+        {
+          "featId": "srd:feat:mobility",
+          "type": "hasFeat"
+        }
+      ],
+      "skillPointsPerLevel": 6
+    },
+    "description": "Shadowdancer\n\n**Hit Die:** d8.\n\n**Requirements**\n\nTo qualify to become a shadowdancer, a character must fulfill all the following criteria.\n\n**Skills:** Move Silently 8 ranks, Hide 10 ranks, Perform (dance) 5 ranks.\n\n**Feats:** Combat Reflexes, Dodge, Mobility.\n\n**Class Skills**\n\nThe shadowdancer's class skills (and the key ability for each skill) are Balance (Dex), Bluff (Cha), Decipher Script (Int), Diplomacy (Cha), Disguise (Cha), Escape Artist (Dex), Hide (Dex), Jump (Str), Listen (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Search (Int), Sleight of Hand (Dex), Spot (Wis), Tumble (Dex), and Use Rope (Dex).\n\n**Skill Points at Each Level:** 6 + Int modifier.\n\n**Table: The Shadowdancer Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Special**\n1st | +0 | +0 | +2 | +0 | Hide in plain sight\n2nd | +1 | +0 | +3 | +0 | Evasion, darkvision, uncanny dodge\n3rd | +2 | +1 | +3 | +1 | *Shadow illusion*, summon shadow\n4th | +3 | +1 | +4 | +1 | Shadow jump 20 ft.\n5th | +3 | +1 | +4 | +1 | Defensive roll, improved uncanny dodge\n6th | +4 | +2 | +5 | +2 | Shadow jump 40 ft., summon shadow\n7th | +5 | +2 | +5 | +2 | Slippery mind\n8th | +6 | +2 | +6 | +2 | Shadow jump 80 ft.\n9th | +6 | +3 | +6 | +3 | Summon shadow\n10th | +7 | +3 | +7 | +3 | Shadow jump 160 ft., improved evasion\n\n**Class Features**\n\nAll of the following are features of the shadowdancer prestige class.\n\n**Weapon and Armor Proficiency:** Shadowdancers are proficient with the club, crossbow (hand, light, or heavy), dagger (any type), dart, mace, morningstar, quarterstaff, rapier, sap, shortbow (normal and composite), and short sword. Shadowdancers are proficient with light armor but not with shields.\n\n**Hide in Plain Sight (Su):** A shadowdancer can use the Hide skill even while being observed. As long as she is within 10 feet of some sort of shadow, a shadowdancer can hide herself from view in the open without anything to actually hide behind. She cannot, however, hide in her own shadow.\n\n**Evasion (Ex):** At 2nd level, a shadowdancer gains evasion. If exposed to any effect that normally allows her to attempt a Reflex saving throw for half damage, she takes no damage with a successful saving throw. The evasion ability can only be used if the shadowdancer is wearing light armor or no armor.\n\n**Darkvision (Su):** At 2nd level, a shadowdancer can see in the dark as though she were permanently under the effect of a *darkvision* spell.\n\n**Uncanny Dodge (Ex):** Starting at 2nd level, a shadowdancer retains her Dexterity bonus to AC (if any) regardless of being caught flat-footed or struck by an invisible attacker. (She still loses any Dexterity bonus to AC if immobilized.)\n\nIf a character gains uncanny dodge from a second class, the character automatically gains improved uncanny dodge (see below).\n\n***Shadow Illusion* (Sp):** When a shadowdancer reaches 3rd level, she can create visual illusions. This ability's effect is identical to that of the arcane spell *silent image* and may be employed once per day.\n\n**Summon Shadow (Su):** At 3rd level, a shadowdancer can summon a shadow, an undead shade. Unlike a normal shadow, this shadow's alignment matches that of the shadowdancer, and the creature cannot create spawn. The summoned shadow cannot be turned, rebuked, or commanded by any third party. This shadow serves as a companion to the shadowdancer and can communicate intelligibly with the shadowdancer. Every third level gained by the shadowdancer adds +2 HD (and the requisite base attack and base save bonus increases) to her shadow companion.\n\nIf a shadow companion is destroyed, or the shadowdancer chooses to dismiss it, the shadowdancer must attempt a DC 15 Fortitude save. If the saving throw fails, the shadowdancer loses 200 experience points per shadowdancer level. A successful saving throw reduces the loss by half, to 100 XP per prestige class level. The shadowdancer's XP total can never go below 0 as the result of a shadow's dismissal or destruction. A destroyed or dismissed shadow companion cannot be replaced for 30 days.\n\n**Shadow Jump (Su):** At 4th level, a shadowdancer gains the ability to travel between shadows as if by means of a *dimension door* spell. The limitation is that the magical transport must begin and end in an area with at least some shadow. A shadowdancer can jump up to a total of 20 feet each day in this way; this may be a single jump of 20 feet or two jumps of 10 feet each. Every two levels higher than 4th, the distance a shadowdancer can jump each day doubles (40 feet at 6th, 80 feet at 8th, and 160 feet at 10th). This amount can be split among many jumps, but each one, no matter how small, counts as a 10-foot increment.\n\n**Defensive Roll (Ex):** Starting at 5th level, once per day, when a shadowdancer would be reduced to 0 hit points or less by damage in combat (from a weapon or other blow, not a spell or special ability), she can attempt to roll with the damage. She makes a Reflex saving throw (DC = damage dealt) and, if successful, takes only half damage from the blow. She must be aware of the attack and able to react to it in order to execute her defensive roll. If she is in a situation that would deny her any Dexterity bonus to AC, she can't attempt a defensive roll.\n\n**Improved Uncanny Dodge (Ex):** At 5th level, a shadowdancer can no longer be flanked. This defense denies rogues the ability to use flank attacks to sneak attack the shadowdancer. The exception to this defense is that a rogue at least four levels higher than the shadowdancer can flank her (and thus sneak attack her).\n\nIf a character gains uncanny dodge (see above) from a second class the character automatically gains improved uncanny dodge, and the levels from those classes stack to determine the minimum rogue level required to flank the character.\n\n**Slippery Mind (Ex):** At 7th level, if a shadowdancer is affected by an enchantment and fails her saving throw, 1 round later she can attempt her saving throw again. She only gets this one extra chance to succeed at her saving throw. If it fails as well, the spell's effects occur normally.\n\n**Improved Evasion (Ex):** This ability, gained at 10th level, works like evasion (see above). A shadowdancer takes no damage at all on successful saving throws against attacks that allow a Reflex saving throw for half damage. What's more, she takes only half damage even if she fails her saving throw.",
+    "effects": [],
+    "id": "srd:class:shadowdancer",
+    "kind": "class",
+    "name": "Shadowdancer",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "prestige"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:bluff",
+        "srd:skill:concentration",
+        "srd:skill:craft",
+        "srd:skill:knowledge",
+        "srd:skill:profession",
+        "srd:skill:spellcraft"
+      ],
+      "hitDie": 4,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Summon familiar"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "spellsKnown": [
+            4,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            5,
+            3,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 2
+        },
+        {
+          "bab": 1,
+          "features": [],
+          "fort": 0,
+          "ref": 0,
+          "spellsKnown": [
+            5,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            4,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 1,
+          "features": [],
+          "fort": 1,
+          "ref": 1,
+          "spellsKnown": [
+            5,
+            3,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            5,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 2,
+          "features": [],
+          "fort": 1,
+          "ref": 1,
+          "spellsKnown": [
+            6,
+            3,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            3,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 4
+        },
+        {
+          "bab": 2,
+          "features": [],
+          "fort": 1,
+          "ref": 1,
+          "spellsKnown": [
+            6,
+            4,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            4,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 4
+        },
+        {
+          "bab": 3,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "spellsKnown": [
+            7,
+            4,
+            2,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            5,
+            3,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 5
+        },
+        {
+          "bab": 3,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "spellsKnown": [
+            7,
+            5,
+            3,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            4,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 5
+        },
+        {
+          "bab": 4,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "spellsKnown": [
+            8,
+            5,
+            3,
+            2,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            5,
+            3,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 6
+        },
+        {
+          "bab": 4,
+          "features": [],
+          "fort": 3,
+          "ref": 3,
+          "spellsKnown": [
+            8,
+            5,
+            4,
+            3,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            4,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 6
+        },
+        {
+          "bab": 5,
+          "features": [],
+          "fort": 3,
+          "ref": 3,
+          "spellsKnown": [
+            9,
+            5,
+            4,
+            3,
+            2,
+            1,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            5,
+            3,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 7
+        },
+        {
+          "bab": 5,
+          "features": [],
+          "fort": 3,
+          "ref": 3,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            3,
+            2,
+            null,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            4,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 7
+        },
+        {
+          "bab": 6,
+          "features": [],
+          "fort": 4,
+          "ref": 4,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            3,
+            2,
+            1,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            5,
+            3,
+            null,
+            null,
+            null
+          ],
+          "will": 8
+        },
+        {
+          "bab": 6,
+          "features": [],
+          "fort": 4,
+          "ref": 4,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            4,
+            3,
+            2,
+            null,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            4,
+            null,
+            null,
+            null
+          ],
+          "will": 8
+        },
+        {
+          "bab": 7,
+          "features": [],
+          "fort": 4,
+          "ref": 4,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            4,
+            3,
+            2,
+            1,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5,
+            3,
+            null,
+            null
+          ],
+          "will": 9
+        },
+        {
+          "bab": 7,
+          "features": [],
+          "fort": 5,
+          "ref": 5,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            2,
+            null,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            4,
+            null,
+            null
+          ],
+          "will": 9
+        },
+        {
+          "bab": 8,
+          "features": [],
+          "fort": 5,
+          "ref": 5,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            2,
+            1,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5,
+            3,
+            null
+          ],
+          "will": 10
+        },
+        {
+          "bab": 8,
+          "features": [],
+          "fort": 5,
+          "ref": 5,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            null
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            4,
+            null
+          ],
+          "will": 10
+        },
+        {
+          "bab": 9,
+          "features": [],
+          "fort": 6,
+          "ref": 6,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            1
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5,
+            3
+          ],
+          "will": 11
+        },
+        {
+          "bab": 9,
+          "features": [],
+          "fort": 6,
+          "ref": 6,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            3,
+            2
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            4
+          ],
+          "will": 11
+        },
+        {
+          "bab": 10,
+          "features": [],
+          "fort": 6,
+          "ref": 6,
+          "spellsKnown": [
+            9,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3
+          ],
+          "spellsPerDay": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "template": {
+            "bab": "poor",
+            "fort": "poor",
+            "ref": "poor",
+            "will": "good"
+          },
+          "will": 12
+        }
+      ],
+      "maxLevel": 20,
+      "proficiencies": "Sorcerers are proficient with all simple weapons. They are not proficient with any type of armor or shield. Armor of any type interferes with a sorcerer's gestures, which can cause his spells with somatic components to fail.",
+      "requirements": [],
+      "skillPointsPerLevel": 2,
+      "spellcasting": {
+        "ability": "cha",
+        "armorFailure": true,
+        "bonusSlots": true,
+        "model": "spontaneous",
+        "spellListId": "srd:spelllist:sorcerer-wizard"
+      }
+    },
+    "description": "Sorcerer\n\n**Alignment:** Any.\n\n**Hit Die:** d4.\n\n**Class Skills**\n\nThe sorcerer's class skills (and the key ability for each skill) are Bluff (Cha), Concentration (Con), Craft (Int), Knowledge (arcana) (Int), Profession (Wis), and Spellcraft (Int).\n\n**Skill Points at 1st Level:** (2 + Int modifier) x 4.\n\n**Skill Points at Each Additional Level:** 2 + Int modifier.\n\n**Table: The Sorcerer -----------Spells per Day--------- Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Special** | **0** | **1st** | **2nd** | **3rd** | **4th** | **5th** | **6th** | **7th** | **8th** | **9th**\n1st | +0 | +0 | +0 | +2 | Summon familiar | 5 | 3 | - | - | - | - | - | - | - | -\n2nd | +1 | +0 | +0 | +3 | 6 | 4 | - | - | - | - | - | - | - | -\n3rd | +1 | +1 | +1 | +3 | 6 | 5 | - | - | - | - | - | - | - | -\n4th | +2 | +1 | +1 | +4 | 6 | 6 | 3 | - | - | - | - | - | - | -\n5th | +2 | +1 | +1 | +4 | 6 | 6 | 4 | - | - | - | - | - | - | -\n6th | +3 | +2 | +2 | +5 | 6 | 6 | 5 | 3 | - | - | - | - | - | -\n7th | +3 | +2 | +2 | +5 | 6 | 6 | 6 | 4 | - | - | - | - | - | -\n8th | +4 | +2 | +2 | +6 | 6 | 6 | 6 | 5 | 3 | - | - | - | - | -\n9th | +4 | +3 | +3 | +6 | 6 | 6 | 6 | 6 | 4 | - | - | - | - | -\n10th | +5 | +3 | +3 | +7 | 6 | 6 | 6 | 6 | 5 | 3 | - | - | - | -\n11th | +5 | +3 | +3 | +7 | 6 | 6 | 6 | 6 | 6 | 4 | - | - | - | -\n12th | +6/+1 | +4 | +4 | +8 | 6 | 6 | 6 | 6 | 6 | 5 | 3 | - | - | -\n13th | +6/+1 | +4 | +4 | +8 | 6 | 6 | 6 | 6 | 6 | 6 | 4 | - | - | -\n14th | +7/+2 | +4 | +4 | +9 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 3 | - | -\n15th | +7/+2 | +5 | +5 | +9 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4 | - | -\n16th | +8/+3 | +5 | +5 | +10 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 3 | -\n17th | +8/+3 | +5 | +5 | +10 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4 | -\n18th | +9/+4 | +6 | +6 | +11 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 3\n19th | +9/+4 | +6 | +6 | +11 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4\n20th | +10/+5 | +6 | +6 | +12 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6\n\n**Table: Sorcerer Spells Known -------- Spells Known --------- Level** | **0** | **1st** | **2nd** | **3rd** | **4th** | **5th** | **6th** | **7th** | **8th** | **9th**\n1st | 4 | 2 | - | - | - | - | - | - | - | -\n2nd | 5 | 2 | - | - | - | - | - | - | - | -\n3rd | 5 | 3 | - | - | - | - | - | - | - | -\n4th | 6 | 3 | 1 | - | - | - | - | - | - | -\n5th | 6 | 4 | 2 | - | - | - | - | - | - | -\n6th | 7 | 4 | 2 | 1 | - | - | - | - | - | -\n7th | 7 | 5 | 3 | 2 | - | - | - | - | - | -\n8th | 8 | 5 | 3 | 2 | 1 | - | - | - | - | -\n9th | 8 | 5 | 4 | 3 | 2 | - | - | - | - | -\n10th | 9 | 5 | 4 | 3 | 2 | 1 | - | - | - | -\n11th | 9 | 5 | 5 | 4 | 3 | 2 | - | - | - | -\n12th | 9 | 5 | 5 | 4 | 3 | 2 | 1 | - | - | -\n13th | 9 | 5 | 5 | 4 | 4 | 3 | 2 | - | - | -\n14th | 9 | 5 | 5 | 4 | 4 | 3 | 2 | 1 | - | -\n15th | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 2 | - | -\n16th | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 2 | 1 | -\n17th | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 2 | -\n18th | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 2 | 1\n19th | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 3 | 2\n20th | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 3 | 3\n\n**Class Features**\n\nAll of the following are class features of the sorcerer.\n\n**Weapon and Armor Proficiency:** Sorcerers are proficient with all simple weapons. They are not proficient with any type of armor or shield. Armor of any type interferes with a sorcerer's gestures, which can cause his spells with somatic components to fail.\n\n**Spells:** A sorcerer casts arcane spells which are drawn primarily from the sorcerer/wizard spell list. He can cast any spell he knows without preparing it ahead of time, the way a wizard or a cleric must (see below).\n\nTo learn or cast a spell, a sorcerer must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a sorcerer's spell is 10 + the spell level + the sorcerer's Charisma modifier.\n\nLike other spellcasters, a sorcerer can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Sorcerer. In addition, he receives bonus spells per day if he has a high Charisma score.\n\nA sorcerer's selection of spells is extremely limited. A sorcerer begins play knowing four 0-level spells and two 1st-level spells of your choice. At each new sorcerer level, he gains one or more new spells, as indicated on Table: Sorcerer Spells Known. (Unlike spells per day, the number of spells a sorcerer knows is not affected by his Charisma score; the numbers on Table: Sorcerer Spells Known are fixed.) These new spells can be common spells chosen from the sorcerer/wizard spell list, or they can be unusual spells that the sorcerer has gained some understanding of by study. The sorcerer can't use this method of spell acquisition to learn spells at a faster rate, however.\n\nUpon reaching 4th level, and at every even-numbered sorcerer level after that (6th, 8th, and so on), a sorcerer can choose to learn a new spell in place of one he already knows. In effect, the sorcerer 'loses' the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least two levels lower than the highest-level sorcerer spell the sorcerer can cast. A sorcerer may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.\n\nUnlike a wizard or a cleric, a sorcerer need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his spells per day for that spell level. He does not have to decide ahead of time which spells he'll cast.\n\n**Familiar:** A sorcerer can obtain a familiar (see below). Doing so takes 24 hours and uses up magical materials that cost 100 gp. A familiar is a magical beast that resembles a small animal and is unusually tough and intelligent. The creature serves as a companion and servant.\n\nThe sorcerer chooses the kind of familiar he gets. As the sorcerer advances in level, his familiar also increases in power.\n\nIf the familiar dies or is dismissed by the sorcerer, the sorcerer must attempt a DC 15 Fortitude saving throw. Failure means he loses 200 experience points per sorcerer level; success reduces the loss to one-half that amount. However, a sorcerer's experience point total can never go below 0 as the result of a familiar's demise or dismissal. A slain or dismissed familiar cannot be replaced for a year and day. A slain familiar can be raised from the dead just as a character can be, and it does not lose a level or a Constitution point when this happy event occurs.\n\nA character with more than one class that grants a familiar may have only one familiar at a time.",
+    "effects": [],
+    "id": "srd:class:sorcerer",
+    "kind": "class",
+    "name": "Sorcerer",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "base"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:concentration",
+        "srd:skill:craft",
+        "srd:skill:diplomacy",
+        "srd:skill:knowledge",
+        "srd:skill:profession",
+        "srd:skill:sense-motive",
+        "srd:skill:speak-language",
+        "srd:skill:spellcraft"
+      ],
+      "hitDie": 4,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Improved ally"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 2
+        },
+        {
+          "bab": 1,
+          "features": [
+            {
+              "effects": [],
+              "name": "Augment Summoning"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 3
+        },
+        {
+          "bab": 1,
+          "features": [
+            {
+              "effects": [],
+              "name": "Extended summoning"
+            }
+          ],
+          "fort": 1,
+          "ref": 1,
+          "will": 3
+        },
+        {
+          "bab": 2,
+          "features": [
+            {
+              "effects": [],
+              "name": "Contingent conjuration"
+            }
+          ],
+          "fort": 1,
+          "ref": 1,
+          "will": 4
+        },
+        {
+          "bab": 2,
+          "features": [
+            {
+              "effects": [],
+              "name": "Planar cohort"
+            }
+          ],
+          "fort": 1,
+          "ref": 1,
+          "template": {
+            "bab": "poor",
+            "fort": "poor",
+            "ref": "poor",
+            "will": "good"
+          },
+          "will": 4
+        }
+      ],
+      "maxLevel": 5,
+      "proficiencies": "Thaumaturgists gain no proficiency with any weapon or armor.",
+      "requirements": [
+        {
+          "featId": "srd:feat:spell-focus",
+          "type": "hasFeat"
+        },
+        {
+          "text": "Able to cast lesser planar ally",
+          "type": "custom"
+        }
+      ],
+      "skillPointsPerLevel": 2
+    },
+    "description": "Thaumaturgist\n\n**Hit Die:** d4.\n\n**Requirements**\n\nTo qualify to become a thaumaturgist, a character must fulfill all the following criteria.\n\n**Feats:** Spell Focus (conjuration).\n\n**Spells:** Able to cast *lesser planar ally*.\n\n**Class Skills**\n\nThe thaumaturgist's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Diplomacy (Cha), Knowledge (religion) (Int), Knowledge (the planes) (Int), Profession (Wis), Sense Motive (Wis), Speak Language (none), and Spellcraft (Int).\n\n**Skill Points at Each Level:** 2 + Int modifier.\n\n**Table: The Thaumaturgist Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Special** | **Spells per Day**\n1st | +0 | +0 | +0 | +2 | Improved ally | +1 level of existing spellcasting class\n2nd | +1 | +0 | +0 | +3 | Augment Summoning | +1 level of existing spellcasting class\n3rd | +1 | +1 | +1 | +3 | Extended summoning | +1 level of existing spellcasting class\n4th | +2 | +1 | +1 | +4 | Contingent conjuration | +1 level of existing spellcasting class\n5th | +2 | +1 | +1 | +4 | Planar cohort | +1 level of existing spellcasting class\n\n**Class Features**\n\nAll of the following are features of the thaumaturgist prestige class.\n\n**Weapon and Armor Proficiency:** Thaumaturgists gain no proficiency with any weapon or armor.\n\n**Spells per Day:** When a new thaumaturgist level is gained, the character gains new spells per day as if he had also gained a level in whatever spellcasting class he belonged to before he added the prestige class. He does not, however, gain any other benefit a character of that class would have gained. This essentially means that he adds the level of thaumaturgist to the level of whatever other spellcasting class the character has, then determines spells per day and caster level accordingly.\n\nIf a character had more than one spellcasting class before he became a thaumaturgist, he must decide to which class he adds each level of thaumaturgist for the purpose of determining spells per day.\n\n**Improved Ally:** When a thaumaturgist casts a *planar ally* spell (including the *lesser* and *greater* versions), he makes a Diplomacy check to convince the creature to aid him for a reduced payment. If the thaumaturgist's Diplomacy check adjusts the creature's attitude to helpful the creature will work for 50% of the standard fee, as long as the task is one that is not against its nature.\n\nThe thaumaturgist's improved ally class feature only works when the planar ally shares at least one aspect of alignment with the thaumaturgist.\n\nA thaumaturgist can have only one such ally at a time, but he may bargain for tasks from other planar allies normally.\n\n**Augment Summoning:** At 2nd level, a thaumaturgist gains the Augment Summoning feat.\n\n**Extended Summoning:** At 3rd level and higher, all spells from the summoning subschool that the thaumaturgist casts have their durations doubled, as if the Extend Spell feat had been applied to them. The levels of the summoning spells don't change, however. This ability stacks with the effect of the Extend Spell feat, which does change the spell's level.\n\n**Contingent Conjuration:** A 4th-level thaumaturgist can prepare a summoning or calling spell ahead of time to be triggered by some other event. This functions as described for the *contingency* spell, including having the thaumaturgist cast the summoning or calling spell beforehand. The spell is cast instantly when the trigger event occurs.\n\nThe conditions needed to bring the spell into effect must be clear, although they can be general. If complicated or convoluted condition as are prescribed, the contingent conjuration may fail when triggered. The conjuration spell occurs based solely on the stated conditions, regardless of whether the thaumaturgist wants it to, although most conjurations can be dismissed normally. A thaumaturgist can have only one contingent conjuration active at a time.\n\n**Planar Cohort:** A 5th-level thaumaturgist can use any of the *planar ally* spells to call a creature to act as his cohort. The called creature serves loyally and well as long as the thaumaturgist continues to advance a cause important to the creature.\n\nTo call a planar cohort, the thaumaturgist must cast the relevant spell, paying the XP costs normally. It takes an offering of 1,000 gp x the HD of the creature to convince it to serve as a planar cohort, and the improved ally class feature can't be used to reduce or eliminate this cost. The planar cohort can't have more Hit Dice than the thaumaturgist has, and must have an ECL no higher than the thaumaturgist's character level -2.\n\nA thaumaturgist can have only one planar cohort at a time, but he can continue to make agreements with other called creatures normally. A planar cohort replaces a thaumaturgist's existing cohort, if he has one by virtue of the Leadership feat.",
+    "effects": [],
+    "id": "srd:class:thaumaturgist",
+    "kind": "class",
+    "name": "Thaumaturgist",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "prestige"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:diplomacy",
+        "srd:skill:gather-information",
+        "srd:skill:intimidate",
+        "srd:skill:knowledge",
+        "srd:skill:listen",
+        "srd:skill:profession",
+        "srd:skill:search",
+        "srd:skill:sense-motive",
+        "srd:skill:spot"
+      ],
+      "hitDie": 10,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "sending 1/day"
+            },
+            {
+              "effects": [],
+              "name": "shield of law 1/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Freedom 1/day"
+            },
+            {
+              "effects": [],
+              "name": "knock 1/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Dimensional anchor 1/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Portal guardian 1/day"
+            },
+            {
+              "effects": [],
+              "name": "shield of law 2/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "forcecage 1/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Dimensional anchor 2/day"
+            },
+            {
+              "effects": [],
+              "name": "knock 2/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "imprisonment 1/day"
+            },
+            {
+              "effects": [],
+              "name": "shield of law 3/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Freedom 2/day"
+            },
+            {
+              "effects": [],
+              "name": "sending 2/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Dimensional anchor 3/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "knock 3/day"
+            },
+            {
+              "effects": [],
+              "name": "forcecage 2/day"
+            },
+            {
+              "effects": [],
+              "name": "portal guardian 2/day"
+            },
+            {
+              "effects": [],
+              "name": "shield of law 4/day"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "will": 0
+        }
+      ],
+      "maxLevel": 10,
+      "proficiencies": "Union Sentinels are proficient with all simple and martial weapons, all armor, and all shields.",
+      "requirements": [
+        {
+          "type": "minBab",
+          "value": 21
+        },
+        {
+          "ranks": 8,
+          "skillId": "srd:skill:diplomacy",
+          "type": "minSkillRanks"
+        },
+        {
+          "ranks": 8,
+          "skillId": "srd:skill:knowledge",
+          "type": "minSkillRanks"
+        },
+        {
+          "featId": "srd:feat:alertness",
+          "type": "hasFeat"
+        },
+        {
+          "featId": "srd:feat:improved-disarm",
+          "type": "hasFeat"
+        },
+        {
+          "featId": "srd:feat:armor-skin",
+          "type": "hasFeat"
+        },
+        {
+          "text": "Must reside in a demiplane-city",
+          "type": "custom"
+        }
+      ],
+      "skillPointsPerLevel": 2
+    },
+    "description": "Union Sentinel\n\n**Hit Die:** d10.\n\n**Requirements**\n\nTo qualify to become a Union Sentinel, a character must fulfill all the following criteria.\n\n**Alignment:** Any lawful.\n\n**Base Attack Bonus:** +21.\n\n**Skills:** Diplomacy 8 ranks, Knowledge (local) 8 ranks.\n\n**Feats:** Alertness, Improved Disarm.\n\n**Epic Feats:** Armor Skin.\n\n**Special:** Must reside in a demiplane-city.\n\n**Class Skills**\n\nThe Union Sentinel's class skills (and the key ability for each skill) are Diplomacy (Cha), Gather Information (Cha), Intimidate (Cha), Knowledge (local) (Int), Listen (Wis), Profession (Wis), Search (Int), Sense Motive (Wis), and Spot (Wis).\n\n**Skill Points at Each Level:** 2 + Int modifier.\n\n**Table: The Union Sentinel Level** | **Special**\n1st | *sending* 1/day, *shield of law* 1/day\n2nd | *Freedom* 1/day, *knock* 1/day\n3rd | *Dimensional anchor* 1/day\n4th | Portal guardian 1/day, *shield of law* 2/day\n5th | *forcecage* 1/day\n6th | *Dimensional anchor* 2/day, *knock* 2/day\n7th | *imprisonment* 1/day, *shield of law* 3/day\n8th | *Freedom* 2/day, *sending* 2/day\n9th | *Dimensional anchor* 3/day\n10th | *knock* 3/day, *forcecage* 2/day, portal guardian 2/day, shield of law 4/day\n\n**Class Features**\n\nThe following are class features of the Union Sentinel prestige class.\n\n**Weapon and Armor Proficiency:** Union Sentinels are proficient with all simple and martial weapons, all armor, and all shields.\n\n***sending* (Sp):** At 1st level, the Union Sentinel gains the use of the *sending* spell as a spell-like ability once per day, plus one additional time per day every seven levels thereafter. This ability functions as the spell cast by a 15th-level caster.\n\n***shield of law* (Sp):** At 1st level, the Union Sentinel gains the use of the *shield of law* spell as a spell-like ability once per day, plus one additional time per day every three levels thereafter. This ability functions as the spell cast by a 15th-level caster.\n\n***Freedom* (Sp):** At 2nd level, the Union Sentinel gains the use of the *Freedom* spell as a spell-like ability once per day, plus one additional time per day every six levels thereafter. This ability functions as the spell cast by an 18th-level caster.\n\n***knock* (Sp):** At 2nd level, the Union Sentinel gains the use of the *knock* spell as a spell-like ability once per day, plus one additional time per day every four levels thereafter. This ability functions as the spell cast by a 15th-level caster.\n\n***Dimensional anchor* (Sp):** At 3rd level, the Union Sentinel gains the use of the *Dimensional anchor* spell as a spell-like ability once per day, plus one additional time per day every three levels thereafter. This ability functions as the spell cast by a 15th-level caster.\n\n**Portal Guardian (Su):** A 4th-level Union Sentinel can become a portal guardian once per day, plus one additional time per day every six levels thereafter. The Union Sentinel must position him or herself within 5 feet of a portal or *gate*, and while he or she remains, the portal cannot be activated from either side by any means. The Union Sentinel can defend him or herself and use any of his or her other abilities normally, as long as he or she remains adjacent to the blocked portal. This ability only functions against portals and the *gate* spell, not against creatures with other spell-like or supernatural interplanar traveling abilities.\n\n***forcecage* (Sp):** At 5th level, the Union Sentinel gains the use of the *forcecage* spell as a spell-like ability once per day, plus one additional time per day every five levels thereafter. This ability functions as the spell cast by a 20th-level caster.\n\n***imprisonment* (Sp):** At 7th level, the Union Sentinel gains the use of the *imprisonment* spell as a spell-like ability once per week, plus one additional time per week every five levels thereafter. This ability functions as the spell cast by a 20th-level caster.",
+    "effects": [],
+    "id": "srd:class:union-sentinel",
+    "kind": "class",
+    "name": "Union Sentinel",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "prestige",
+      "epic"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:climb",
+        "srd:skill:handle-animal",
+        "srd:skill:intimidate",
+        "srd:skill:jump",
+        "srd:skill:ride",
+        "srd:skill:swim"
+      ],
+      "hitDie": 8,
+      "levels": [
+        {
+          "bab": 1,
+          "features": [],
+          "fort": 2,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 2,
+          "features": [],
+          "fort": 3,
+          "ref": 0,
+          "will": 0
+        },
+        {
+          "bab": 3,
+          "features": [],
+          "fort": 3,
+          "ref": 1,
+          "will": 1
+        },
+        {
+          "bab": 4,
+          "features": [],
+          "fort": 4,
+          "ref": 1,
+          "will": 1
+        },
+        {
+          "bab": 5,
+          "features": [],
+          "fort": 4,
+          "ref": 1,
+          "will": 1
+        },
+        {
+          "bab": 6,
+          "features": [],
+          "fort": 5,
+          "ref": 2,
+          "will": 2
+        },
+        {
+          "bab": 7,
+          "features": [],
+          "fort": 5,
+          "ref": 2,
+          "will": 2
+        },
+        {
+          "bab": 8,
+          "features": [],
+          "fort": 6,
+          "ref": 2,
+          "will": 2
+        },
+        {
+          "bab": 9,
+          "features": [],
+          "fort": 6,
+          "ref": 3,
+          "will": 3
+        },
+        {
+          "bab": 10,
+          "features": [],
+          "fort": 7,
+          "ref": 3,
+          "will": 3
+        },
+        {
+          "bab": 11,
+          "features": [],
+          "fort": 7,
+          "ref": 3,
+          "will": 3
+        },
+        {
+          "bab": 12,
+          "features": [],
+          "fort": 8,
+          "ref": 4,
+          "will": 4
+        },
+        {
+          "bab": 13,
+          "features": [],
+          "fort": 8,
+          "ref": 4,
+          "will": 4
+        },
+        {
+          "bab": 14,
+          "features": [],
+          "fort": 9,
+          "ref": 4,
+          "will": 4
+        },
+        {
+          "bab": 15,
+          "features": [],
+          "fort": 9,
+          "ref": 5,
+          "will": 5
+        },
+        {
+          "bab": 16,
+          "features": [],
+          "fort": 10,
+          "ref": 5,
+          "will": 5
+        },
+        {
+          "bab": 17,
+          "features": [],
+          "fort": 10,
+          "ref": 5,
+          "will": 5
+        },
+        {
+          "bab": 18,
+          "features": [],
+          "fort": 11,
+          "ref": 6,
+          "will": 6
+        },
+        {
+          "bab": 19,
+          "features": [],
+          "fort": 11,
+          "ref": 6,
+          "will": 6
+        },
+        {
+          "bab": 20,
+          "features": [],
+          "fort": 12,
+          "ref": 6,
+          "template": {
+            "bab": "good",
+            "fort": "good",
+            "ref": "poor",
+            "will": "poor"
+          },
+          "will": 6
+        }
+      ],
+      "maxLevel": 20,
+      "proficiencies": "The warrior is proficient in the use of all simple and martial weapons and all armor and shields.",
+      "requirements": [],
+      "skillPointsPerLevel": 2
+    },
+    "description": "Warrior\n\n**Hit Die:** d8.\n\n**Class Skills**\n\nThe warrior's class skills (and the key ability for each skill) are Climb (Str), Handle Animal (Cha), Intimidate (Cha), Jump (Str), Ride (Dex), and Swim (Str).\n\n**Skill Points at 1st Level:** (2 + Int modifier) x 4.\n\n**Skill Points at Each Additional Level:** 2 + Int modifier.\n\n**Table: The Warrior Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save**\n1st | +1 | +2 | +0 | +0\n2nd | +2 | +3 | +0 | +0\n3rd | +3 | +3 | +1 | +1\n4th | +4 | +4 | +1 | +1\n5th | +5 | +4 | +1 | +1\n6th | +6/+1 | +5 | +2 | +2\n7th | +7/+2 | +5 | +2 | +2\n8th | +8/+3 | +6 | +2 | +2\n9th | +9/+4 | +6 | +3 | +3\n10th | +10/+5 | +7 | +3 | +3\n11th | +11/+6/+1 | +7 | +3 | +3\n12th | +12/+7/+2 | +8 | +4 | +4\n13th | +13/+8/+3 | +8 | +4 | +4\n14th | +14/+9/+4 | +9 | +4 | +4\n15th | +15/+10/+5 | +9 | +5 | +5\n16th | +16/+11/+6/+1 | +10 | +5 | +5\n17th | +17/+12/+7/+2 | +10 | +5 | +5\n18th | +18/+13/+8/+3 | +11 | +6 | +6\n19th | +19/+14/+9/+4 | +11 | +6 | +6\n20th | +20/+15/+10/+5 | +12 | +6 | +6\n\n**Class Features**\n\nThe following is a class feature of the warrior NPC class.\n\n**Weapon and Armor Proficiency:** The warrior is proficient in the use of all simple and martial weapons and all armor and shields.",
+    "effects": [],
+    "id": "srd:class:warrior",
+    "kind": "class",
+    "name": "Warrior",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "base",
+      "npc"
+    ],
+    "updatedAt": ""
+  },
+  {
+    "data": {
+      "classSkillIds": [
+        "srd:skill:concentration",
+        "srd:skill:craft",
+        "srd:skill:decipher-script",
+        "srd:skill:knowledge",
+        "srd:skill:profession",
+        "srd:skill:spellcraft"
+      ],
+      "hitDie": 4,
+      "levels": [
+        {
+          "bab": 0,
+          "features": [
+            {
+              "effects": [],
+              "name": "Summon familiar"
+            },
+            {
+              "effects": [],
+              "name": "Scribe Scroll"
+            }
+          ],
+          "fort": 0,
+          "ref": 0,
+          "spellsPerDay": [
+            3,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 2
+        },
+        {
+          "bab": 1,
+          "features": [],
+          "fort": 0,
+          "ref": 0,
+          "spellsPerDay": [
+            4,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 1,
+          "features": [],
+          "fort": 1,
+          "ref": 1,
+          "spellsPerDay": [
+            4,
+            2,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 3
+        },
+        {
+          "bab": 2,
+          "features": [],
+          "fort": 1,
+          "ref": 1,
+          "spellsPerDay": [
+            4,
+            3,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 4
+        },
+        {
+          "bab": 2,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            }
+          ],
+          "fort": 1,
+          "ref": 1,
+          "spellsPerDay": [
+            4,
+            3,
+            2,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 4
+        },
+        {
+          "bab": 3,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "spellsPerDay": [
+            4,
+            3,
+            3,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 5
+        },
+        {
+          "bab": 3,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "spellsPerDay": [
+            4,
+            4,
+            3,
+            2,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 5
+        },
+        {
+          "bab": 4,
+          "features": [],
+          "fort": 2,
+          "ref": 2,
+          "spellsPerDay": [
+            4,
+            4,
+            3,
+            3,
+            2,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 6
+        },
+        {
+          "bab": 4,
+          "features": [],
+          "fort": 3,
+          "ref": 3,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            3,
+            2,
+            1,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 6
+        },
+        {
+          "bab": 5,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            }
+          ],
+          "fort": 3,
+          "ref": 3,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            null,
+            null,
+            null,
+            null
+          ],
+          "will": 7
+        },
+        {
+          "bab": 5,
+          "features": [],
+          "fort": 3,
+          "ref": 3,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            3,
+            2,
+            1,
+            null,
+            null,
+            null
+          ],
+          "will": 7
+        },
+        {
+          "bab": 6,
+          "features": [],
+          "fort": 4,
+          "ref": 4,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            null,
+            null,
+            null
+          ],
+          "will": 8
+        },
+        {
+          "bab": 6,
+          "features": [],
+          "fort": 4,
+          "ref": 4,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            2,
+            1,
+            null,
+            null
+          ],
+          "will": 8
+        },
+        {
+          "bab": 7,
+          "features": [],
+          "fort": 4,
+          "ref": 4,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            null,
+            null
+          ],
+          "will": 9
+        },
+        {
+          "bab": 7,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            }
+          ],
+          "fort": 5,
+          "ref": 5,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            2,
+            1,
+            null
+          ],
+          "will": 9
+        },
+        {
+          "bab": 8,
+          "features": [],
+          "fort": 5,
+          "ref": 5,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            null
+          ],
+          "will": 10
+        },
+        {
+          "bab": 8,
+          "features": [],
+          "fort": 5,
+          "ref": 5,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            2,
+            1
+          ],
+          "will": 10
+        },
+        {
+          "bab": 9,
+          "features": [],
+          "fort": 6,
+          "ref": 6,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2
+          ],
+          "will": 11
+        },
+        {
+          "bab": 9,
+          "features": [],
+          "fort": 6,
+          "ref": 6,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            3,
+            3
+          ],
+          "will": 11
+        },
+        {
+          "bab": 10,
+          "features": [
+            {
+              "effects": [
+                {
+                  "activation": "passive",
+                  "bonusType": "untyped",
+                  "target": "feats.slots",
+                  "value": 1
+                }
+              ],
+              "name": "Bonus feat"
+            }
+          ],
+          "fort": 6,
+          "ref": 6,
+          "spellsPerDay": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "template": {
+            "bab": "poor",
+            "fort": "poor",
+            "ref": "poor",
+            "will": "good"
+          },
+          "will": 12
+        }
+      ],
+      "maxLevel": 20,
+      "proficiencies": "Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. Armor of any type interferes with a wizard's movements, which can cause her spells with somatic components to fail.",
+      "requirements": [],
+      "skillPointsPerLevel": 2,
+      "spellcasting": {
+        "ability": "int",
+        "armorFailure": true,
+        "bonusSlots": true,
+        "model": "prepared",
+        "spellListId": "srd:spelllist:sorcerer-wizard"
+      }
+    },
+    "description": "Wizard\n\n**Alignment:** Any.\n\n**Hit Die:** d4.\n\n**Class Skills**\n\nThe wizard's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Decipher Script (Int), Knowledge (all skills, taken individually) (Int), Profession (Wis), and Spellcraft (Int). See Chapter 4: Skills for skill descriptions.\n\n**Skill Points at 1st Level:** (2 + Int modifier) x4.\n\n**Skill Points at Each Additional Level:** 2 + Int modifier.\n\n**Table: The Wizard ---------- Spells per Day --------- Level** | **Base Attack Bonus** | **Fort Save** | **Ref Save** | **Will Save** | **Special** | **0** | **1st** | **2nd** | **3rd** | **4th** | **5th** | **6th** | **7th** | **8th** | **9th**\n1st | +0 | +0 | +0 | +2 | Summon familiar, Scribe Scroll | 3 | 1 | - | - | - | - | - | - | - | -\n2nd | +1 | +0 | +0 | +3 | 4 | 2 | - | - | - | - | - | - | - | -\n3rd | +1 | +1 | +1 | +3 | 4 | 2 | 1 | - | - | - | - | - | - | -\n4th | +2 | +1 | +1 | +4 | 4 | 3 | 2 | - | - | - | - | - | - | -\n5th | +2 | +1 | +1 | +4 | Bonus feat | 4 | 3 | 2 | 1 | - | - | - | - | - | -\n6th | +3 | +2 | +2 | +5 | 4 | 3 | 3 | 2 | - | - | - | - | - | -\n7th | +3 | +2 | +2 | +5 | 4 | 4 | 3 | 2 | 1 | - | - | - | - | -\n8th | +4 | +2 | +2 | +6 | 4 | 4 | 3 | 3 | 2 | - | - | - | - | -\n9th | +4 | +3 | +3 | +6 | 4 | 4 | 4 | 3 | 2 | 1 | - | - | - | -\n10th | +5 | +3 | +3 | +7 | Bonus feat | 4 | 4 | 4 | 3 | 3 | 2 | - | - | - | -\n11th | +5 | +3 | +3 | +7 | 4 | 4 | 4 | 4 | 3 | 2 | 1 | - | - | -\n12th | +6/+1 | +4 | +4 | +8 | 4 | 4 | 4 | 4 | 3 | 3 | 2 | - | - | -\n13th | +6/+1 | +4 | +4 | +8 | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1 | - | -\n14th | +7/+2 | +4 | +4 | +9 | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2 | - | -\n15th | +7/+2 | +5 | +5 | +9 | Bonus feat | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1 | -\n16th | +8/+3 | +5 | +5 | +10 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2 | -\n17th | +8/+3 | +5 | +5 | +10 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 2 | 1\n18th | +9/+4 | +6 | +6 | +11 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 | 2\n19th | +9/+4 | +6 | +6 | +11 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3\n20th | +10/+5 | +6 | +6 | +12 | Bonus feat | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4\n\n**Class Features**\n\nAll of the following are class features of the wizard.\n\n**Weapon and Armor Proficiency:** Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff, but not with any type of armor or shield. Armor of any type interferes with a wizard's movements, which can cause her spells with somatic components to fail.\n\n**Spells:** A wizard casts arcane spells which are drawn from the sorcerer/wizard spell list. A wizard must choose and prepare her spells ahead of time (see below).\n\nTo learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a wizard's spell is 10 + the spell level + the wizard's Intelligence modifier.\n\nLike other spellcasters, a wizard can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Wizard. In addition, she receives bonus spells per day if she has a high Intelligence score.\n\nUnlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her spells ahead of time by getting a good night's sleep and spending 1 hour studying her spellbook. While studying, the wizard decides which spells to prepare.\n\n**Bonus Languages:** A wizard may substitute Draconic for one of the bonus languages available to the character because of her race.\n\n**Familiar:** A wizard can obtain a familiar in exactly the same manner as a sorcerer can. See the sorcerer description and the information on Familiars below for details.\n\n**Scribe Scroll:** At 1st level, a wizard gains Scribe Scroll as a bonus feat.\n\n**Bonus Feats:** At 5th, 10th, 15th, and 20th level, a wizard gains a bonus feat. At each such opportunity, she can choose a metamagic feat, an item creation feat, or Spell Mastery. The wizard must still meet all prerequisites for a bonus feat, including caster level minimums.\n\nThese bonus feats are in addition to the feat that a character of any class gets from advancing levels. The wizard is not limited to the categories of item creation feats, metamagic feats, or Spell Mastery when choosing these feats.\n\n**Spellbooks:** A wizard must study her spellbook each day to prepare her spells. She cannot prepare any spell not recorded in her spellbook, except for *read magic*, which all wizards can prepare from memory.\n\nA wizard begins play with a spellbook containing all 0-level wizard spells (except those from her prohibited school or schools, if any; see School Specialization, below) plus three 1st-level spells of your choice. For each point of Intelligence bonus the wizard has, the spellbook holds one additional 1st-level spell of your choice. At each new wizard level, she gains two new spells of any spell level or levels that she can cast (based on her new wizard level) for her spellbook. At any time, a wizard can also add spells found in other wizards' spellbooks to her own.\n\nSchool Specialization\n\nA school is one of eight groupings of spells, each defined by a common theme. If desired, a wizard may specialize in one school of magic (see below). Specialization allows a wizard to cast extra spells from her chosen school, but she then never learns to cast spells from some other schools.\n\nA specialist wizard can prepare one additional spell of her specialty school per spell level each day. She also gains a +2 bonus on Spellcraft checks to learn the spells of her chosen school.\n\nThe wizard must choose whether to specialize and, if she does so, choose her specialty at 1st level. At this time, she must also give up two other schools of magic (unless she chooses to specialize in divination; see below), which become her prohibited schools.\n\nA wizard can never give up divination to fulfill this requirement.\n\nSpells of the prohibited school or schools are not available to the wizard, and she can't even cast such spells from scrolls or fire them from wands. She may not change either her specialization or her prohibited schools later.\n\nThe eight schools of arcane magic are abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, and transmutation.\n\nSpells that do not fall into any of these schools are called universal spells.\n\n*Abjuration:* Spells that protect, block, or banish. An abjuration specialist is called an abjurer.\n\n*Conjuration:* Spells that bring creatures or materials to the caster. A conjuration specialist is called a conjurer.\n\n*Divination:* Spells that reveal information. A divination specialist is called a diviner. Unlike the other specialists, a diviner must give up only one other school.\n\n*Enchantment:* Spells that imbue the recipient with some property or grant the caster power over another being. An enchantment specialist is called an enchanter.\n\n*Evocation:* Spells that manipulate energy or create something from nothing. An evocation specialist is called an evoker.\n\n*Illusion:* Spells that alter perception or create false images. An illusion specialist is called an illusionist.\n\n*Necromancy:* Spells that manipulate, create, or destroy life or life force. A necromancy specialist is called a necromancer.\n\n*Transmutation:* Spells that transform the recipient physically or change its properties in a more subtle way. A transmutation specialist is called a transmuter.\n\n*Universal:* Not a school, but a category for spells that all wizards can learn. A wizard cannot select universal as a specialty school or as a prohibited school. Only a limited number of spells fall into this category.\n\nFamiliars\n\nA familiar is a normal animal that gains new powers and becomes a magical beast when summoned to service by a sorcerer or wizard. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but it is treated as a magical beast instead of an animal for the purpose of any effect that depends on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.\n\nA familiar also grants special abilities to its master (a sorcerer or wizard), as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.\n\nLevels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master's level.\n\n**Familiar** | **Special**\nBat | Master gains a +3 bonus on Listen checks\nCat | Master gains a +3 bonus on Move Silently checks\nHawk | Master gains a +3 bonus on Spot checks in bright light\nLizard | Master gains a +3 bonus on Climb checks\nOwl | Master gains a +3 bonus on Spot checks in shadows\nRat | Master gains a +2 bonus on Fortitude saves\nRaven | Master gains a +3 bonus on Appraise checks\nSnake | Master gains a +3 bonus on Bluff checks\nToad | Master gains +3 hit points\nWeasel | Master gains a +2 bonus on Reflex saves\n1 A raven familiar can speak one language of its master's choice as a supernatural ability.\n2 Tiny viper.\n\n**Familiar Basics:** Use the basic statistics for a creature of the familiar's kind, but make the following changes:\n\n*Hit Dice:* For the purpose of effects related to number of Hit Dice, use the master's character level or the familiar's normal HD total, whichever is higher.\n\n*Hit Points:* The familiar has one-half the master's total hit points (not including temporary hit points), rounded down, regardless of its actual Hit Dice.\n\n*Attacks:* Use the master's base attack bonus, as calculated from all his classes. Use the familiar's Dexterity or Strength modifier, whichever is greater, to get the familiar's melee attack bonus with natural weapons.\n\nDamage equals that of a normal creature of the familiar's kind.\n\n*Saving Throws:* For each saving throw, use either the familiar's base save bonus (Fortitude +2, Reflex +2, Will +0) or the master's (as calculated from all his classes), whichever is better. The familiar uses its own ability modifiers to saves, and it doesn't share any of the other bonuses that the master might have on saves.\n\n*Skills:* For each skill in which either the master or the familiar has ranks, use either the normal skill ranks for an animal of that type or the master's skill ranks, whichever are better. In either case, the familiar uses its own ability modifiers. Regardless of a familiar's total skill modifiers, some skills may remain beyond the familiar's ability to use.\n\n**Familiar Ability Descriptions:** All familiars have special abilities (or impart abilities to their masters) depending on the master's combined level in classes that grant familiars, as shown on the table below. The abilities given on the table are cumulative.\n\n*Natural Armor Adj.:* The number noted here is an improvement to the familiar's existing natural armor bonus.\n\n*Int:* The familiar's Intelligence score.\n\n*Alertness (Ex):* While a familiar is within arm's reach, the master gains the Alertness feat.\n\n*Improved Evasion (Ex):* When subjected to an attack that normally allows a Reflex saving throw for half damage, a familiar takes no damage if it makes a successful saving throw and half damage even if the saving throw fails.\n\n*Share Spells:* At the master's option, he may have any spell (but not any spell-like ability) he casts on himself also affect his familiar. The familiar must be within 5 feet at the time of casting to receive the benefit.\n\nIf the spell or effect has a duration other than instantaneous, it stops affecting the familiar if it moves farther than 5 feet away and will not affect the familiar again even if it returns to the master before the duration expires. Additionally, the master may cast a spell with a target of 'You' on his familiar (as a touch range spell) instead of on himself.\n\nA master and his familiar can share spells even if the spells normally do not affect creatures of the familiar's type (magical beast).\n\n*Empathic Link (Su):* The master has an empathic link with his familiar out to a distance of up to 1 mile. The master cannot see through the familiar's eyes, but they can communicate empathically. Because of the limited nature of the link, only general emotional content can be communicated.\n\nBecause of this empathic link, the master has the same connection to an item or place that his familiar does.\n\n*Deliver Touch Spells (Su):* If the master is 3rd level or higher, a familiar can deliver touch spells for him. If the master and the familiar are in contact at the time the master casts a touch spell, he can designate his familiar as the 'toucher.' The familiar can then deliver the touch spell just as the master could. As usual, if the master casts another spell before the touch is delivered, the touch spell dissipates.\n\n*Speak with Master (Ex):* If the master is 5th level or higher, a familiar and the master can communicate verbally as if they were using a common language. Other creatures do not understand the communication without magical help.\n\n*Speak with Animals of Its Kind (Ex):* If the master is 7th level or higher, a familiar can communicate with animals of approximately the same kind as itself (including dire varieties): bats with bats, rats with rodents, cats with felines, hawks and owls and ravens with birds, lizards and snakes with reptiles, toads with amphibians, weasels with similar creatures (weasels, minks, polecats, ermines, skunks, wolverines, and badgers). Such communication is limited by the intelligence of the conversing creatures.\n\n*Spell Resistance (Ex):* If the master is 11th level or higher, a familiar gains spell resistance equal to the master's level + 5. To affect the familiar with a spell, another spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the familiar's spell resistance.\n\n*Scry on Familiar (Sp):* If the master is 13th level or higher, he may scry on his familiar (as if casting the *scrying* spell) once per day.\n\n**Master Class Level** | **Natural Armor Adj**. | **Int** | **Special**\n1st-2nd | +1 | 6 | Alertness, improved evasion, share spells, empathic link\n3rd-4th | +2 | 7 | Deliver touch spells\n5th-6th | +3 | 8 | Speak with master\n7th-8th | +4 | 9 | Speak with animals of its kind\n9th-10th | +5 | 10 | -\n11th-12th | +6 | 11 | Spell resistance\n13th-14th | +7 | 12 | *Scry* on familiar\n15th-16th | +8 | 13 | -\n17th-18th | +9 | 14 | -\n19th-20th | +10 | 15 | -\n\nArcane Spells and Armor\n\nWizards and sorcerers do not know how to wear armor effectively.\n\nIf desired, they can wear armor anyway (though they'll be clumsy in it), or they can gain training in the proper use of armor (with the various Armor Proficiency feats-light, medium, and heavy-and the Shield Proficiency feat), or they can multiclass to add a class that grants them armor proficiency. Even if a wizard or sorcerer is wearing armor with which he or she is proficient, however, it might still interfere with spellcasting.\n\nArmor restricts the complicated gestures that a wizards or sorcerer must make while casting any spell that has a somatic component (most do). The armor and shield descriptions list the arcane spell failure chance for different armors and shields.\n\nBy contrast, bards not only know how to wear light armor effectively, but they can also ignore the arcane spell failure chance for such armor. A bard wearing armor heavier than light or using any type of shield incurs the normal arcane spell failure chance, even if he becomes proficient with that armor.\n\nIf a spell doesn't have a somatic component, an arcane spellcaster can cast it with no problem while wearing armor. Such spells can also be cast even if the caster's hands are bound or if he or she is grappling (although Concentration checks still apply normally). Also, the metamagic feat Still Spell allows a spellcaster to prepare or cast a spell at one spell level higher than normal without the somatic component. This also provides a way to cast a spell while wearing armor without risking arcane spell failure.",
+    "effects": [],
+    "id": "srd:class:wizard",
+    "kind": "class",
+    "name": "Wizard",
+    "rev": 1,
+    "schemaVersion": 1,
+    "source": "srd",
+    "tags": [
+      "base"
+    ],
+    "updatedAt": ""
+  }
+]
