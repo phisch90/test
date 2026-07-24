@@ -30,7 +30,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
         env:
-          PAGES_BASE: /test/
+          PAGES_BASE: /chardex35/
       - uses: actions/configure-pages@v5
         with:
           enablement: true
