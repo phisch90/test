@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate, useParams } from "@tanstack/react-router";
+import { Link, useNavigate, useParams } from "@tanstack/react-router";
 import type { Character, DerivedSheet, StatValue } from "@codex35/core";
 import { S } from "../../strings.js";
 import { CharacterRepo } from "../../db/repo.js";
@@ -8,7 +8,8 @@ import { useDiceStore } from "../../lib/diceStore.js";
 import { BreakdownSheet } from "../../ui/Breakdown.js";
 import { Chip, GhostButton, fmtMod } from "../../ui/bits.js";
 import { CombatTab, SkillsTab, StatsTab } from "./tabs-core.js";
-import { FeatsTab, InventoryTab, NotesTab, SpellsTab } from "./tabs-more.js";
+import { FeatsTab, InventoryTab, NotesTab } from "./tabs-more.js";
+import { SpellsTab } from "./SpellsTab.js";
 
 export interface TabProps {
   character: Character;
@@ -37,10 +38,10 @@ export function CharacterSheetPage() {
   if (character === null) return <p className="text-slate-400">Charakter nicht gefunden.</p>;
   if (!sheet) return <p className="text-slate-400">{S.misc.loading}</p>;
 
+  // Mutiert immer den frischen DB-Stand (nicht den Render-Stand) — schnelle
+  // Doppel-Taps gehen sonst verloren.
   const save: TabProps["save"] = (mutate) => {
-    const copy = structuredClone(character);
-    mutate(copy);
-    void CharacterRepo.save(copy);
+    void CharacterRepo.mutate(character.id, mutate);
   };
 
   const openBreakdown: TabProps["openBreakdown"] = (title, value, rollable = true) =>
@@ -69,6 +70,15 @@ export function CharacterSheetPage() {
             {sheet.classLevels.map((c) => `${c.className} ${c.level}`).join(" / ")} · {S.sheet.level}{" "}
             {sheet.totalLevel}
             {sheet.ecl !== sheet.totalLevel && ` (ECL ${sheet.ecl})`}
+            {sheet.xp.nextLevelAt !== null && character.xp >= sheet.xp.nextLevelAt && (
+              <Link
+                to="/charaktere/$charId/stufenaufstieg"
+                params={{ charId: character.id }}
+                className="ml-2 rounded-full bg-emerald-700/40 px-2 py-0.5 text-xs font-semibold text-emerald-300"
+              >
+                {S.levelUp.ready}
+              </Link>
+            )}
           </p>
           {/* HP-Leiste: Anpassung in maximal zwei Taps. */}
           <div className="mt-1 flex items-center gap-2">

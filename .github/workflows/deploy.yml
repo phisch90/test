@@ -2,7 +2,7 @@ name: Deploy (GitHub Pages)
 
 on:
   push:
-    branches: [main, "claude/dnd-fight-club-app-ya1w9f"]
+    branches: [main]
   workflow_dispatch:
 
 permissions:

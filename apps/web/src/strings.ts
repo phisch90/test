@@ -143,6 +143,40 @@ export const S = {
     invalid: "Ungültiger Ausdruck",
   },
 
+  spells: {
+    prepared: "Vorbereitet",
+    known: "Bekannt",
+    spellbook: "Zauberbuch",
+    prepare: "Vorbereiten",
+    learn: "Lernen",
+    cast: "Wirken",
+    rest: "Rast (Slots zurücksetzen)",
+    browse: "Zauberliste durchsuchen",
+    onlySpellbook: "nur Zauberbuch",
+    level: "Grad",
+    dc: "SG",
+    noSlotsLeft: "keine Slots mehr",
+    preparedHint:
+      "Wirken zählt die Slots des Grads hoch — welcher konkrete Zauber verbraucht ist, merkt ihr euch wie am Tisch üblich.",
+    knownLimit: (have: number, max: string) => `${have}/${max} bekannt`,
+  },
+
+  levelUp: {
+    title: "Stufenaufstieg",
+    ready: "⬆ Bereit zum Aufstieg!",
+    chooseClass: "Klasse für die neue Stufe",
+    hpRoll: "TP-Wurf für diese Stufe",
+    rollHp: "würfeln",
+    abilityIncrease: "Attributssteigerung (alle 4 Stufen)",
+    skills: "Fertigkeitspunkte verteilen",
+    feats: "Neues Talent wählen",
+    newSpells: "Neue Zauber lernen",
+    summary: "Zusammenfassung",
+    apply: "Stufe aufsteigen",
+    hpDelta: "Trefferpunkte",
+    newLevel: "Neue Stufe",
+  },
+
   misc: {
     loading: "Lade…",
     seedRunning: "SRD-Kompendium wird eingerichtet…",

@@ -1,4 +1,5 @@
 import { ABILITIES } from "@codex35/core";
+import { Link } from "@tanstack/react-router";
 import { S } from "../../strings.js";
 import { Card, GhostButton, SectionTitle, StatButton, fmtMod } from "../../ui/bits.js";
 import { useDiceStore } from "../../lib/diceStore.js";
@@ -76,6 +77,13 @@ export function StatsTab({ character, sheet, save, openBreakdown }: TabProps) {
               ? `${S.sheet.nextLevel}: ${sheet.xp.nextLevelAt.toLocaleString("de-DE")}`
               : "max. Stufe"}
           </span>
+          <Link
+            to="/charaktere/$charId/stufenaufstieg"
+            params={{ charId: character.id }}
+            className="ml-auto rounded-lg border border-slate-600 px-3 py-1.5 text-sm hover:bg-slate-800"
+          >
+            ⬆ {S.actions.levelUp}
+          </Link>
         </div>
       </Card>
 

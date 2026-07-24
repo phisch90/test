@@ -13,6 +13,7 @@ import { Layout } from "./ui/Layout.js";
 import { CharacterListPage } from "./pages/CharacterList.js";
 import { CharacterWizardPage } from "./pages/CharacterWizard.js";
 import { CharacterSheetPage } from "./pages/sheet/index.js";
+import { LevelUpPage } from "./pages/LevelUp.js";
 import { CompendiumPage, EntityDetailPage } from "./pages/Compendium.js";
 import { DicePage } from "./pages/DicePage.js";
 import { SettingsPage } from "./pages/SettingsPage.js";
@@ -33,6 +34,11 @@ const sheetRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/charaktere/$charId",
   component: CharacterSheetPage,
+});
+const levelUpRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/charaktere/$charId/stufenaufstieg",
+  component: LevelUpPage,
 });
 const compendiumRoute = createRoute({
   getParentRoute: () => rootRoute,
@@ -64,6 +70,7 @@ const routeTree = rootRoute.addChildren([
   indexRoute,
   wizardRoute,
   sheetRoute,
+  levelUpRoute,
   compendiumRoute,
   compendiumKindRoute,
   entityDetailRoute,
