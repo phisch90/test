@@ -38,10 +38,10 @@ export function CharacterSheetPage() {
   if (character === null) return <p className="text-slate-400">Charakter nicht gefunden.</p>;
   if (!sheet) return <p className="text-slate-400">{S.misc.loading}</p>;
 
+  // Mutiert immer den frischen DB-Stand (nicht den Render-Stand) — schnelle
+  // Doppel-Taps gehen sonst verloren.
   const save: TabProps["save"] = (mutate) => {
-    const copy = structuredClone(character);
-    mutate(copy);
-    void CharacterRepo.save(copy);
+    void CharacterRepo.mutate(character.id, mutate);
   };
 
   const openBreakdown: TabProps["openBreakdown"] = (title, value, rollable = true) =>

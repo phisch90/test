@@ -76,6 +76,24 @@ function CasterBlock({
     return slot !== undefined && slot.total !== null && (state.usedSlots[level] ?? 0) < slot.total;
   };
 
+  // 3.5: je Grad nur so viele Zauber vorbereiten, wie Slots vorhanden sind.
+  const preparedCountAt = (level: number) =>
+    state.prepared.filter((p) => p.slotLevel === level).length;
+  const canPrepareAt = (level: number) => {
+    const slot = slotFor(level);
+    return slot !== undefined && slot.total !== null && preparedCountAt(level) < slot.total;
+  };
+
+  // Spontanzauberer: bekannte Zauber je Grad aus der spellsKnown-Tabellenzeile.
+  const knownCountAt = (level: number) =>
+    entries.filter((e) => e.level === level && knownSet.has(e.spellId)).length;
+  const canLearnAt = (level: number) => {
+    if (level > maxAvailableLevel) return false;
+    const limit = block.spellsKnown?.[level];
+    if (limit === undefined || limit === null) return true;
+    return knownCountAt(level) < limit;
+  };
+
   // Vorbereitete Zauber nach Grad gruppieren (Instanzen zählen).
   const preparedByLevel = new Map<number, { spellId: string; count: number; firstIndex: number }[]>();
   state.prepared.forEach((p, index) => {
@@ -301,7 +319,7 @@ function CasterBlock({
                     {knownSet.has(entry.spellId) ? "📖✓" : "📖"}
                   </GhostButton>
                   <GhostButton
-                    disabled={entry.level > maxAvailableLevel}
+                    disabled={!canPrepareAt(entry.level)}
                     onClick={() =>
                       mutate((s) => void s.prepared.push({ spellId: entry.spellId, slotLevel: entry.level }))
                     }
@@ -315,7 +333,7 @@ function CasterBlock({
                   <span className="text-xs text-emerald-500">✓</span>
                 ) : (
                   <GhostButton
-                    disabled={entry.level > maxAvailableLevel}
+                    disabled={!canLearnAt(entry.level)}
                     onClick={() => mutate((s) => void s.known.push(entry.spellId))}
                   >
                     + {S.spells.learn}

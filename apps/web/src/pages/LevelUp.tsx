@@ -55,7 +55,13 @@ export function LevelUpPage() {
   const afterCharacter: Character | null = useMemo(() => {
     if (!character || !classId || ranks === null) return null;
     const copy = structuredClone(character);
-    copy.levels.push({ classId, hpRoll: hpRoll ?? "avg" });
+    // TP-Wurf hart auf 1..TW klemmen und runden — getippte Dezimal-/Ausreißer-
+    // Werte würden sonst das Schema (int) und damit den Export brechen.
+    const cls = compendium?.get(classId);
+    const die = cls?.kind === "class" ? cls.data.hitDie : 12;
+    const clampedHp =
+      hpRoll === null ? ("avg" as const) : Math.min(Math.max(1, Math.round(hpRoll)), die);
+    copy.levels.push({ classId, hpRoll: clampedHp });
     if (needsAbility) {
       const index = Math.floor(newTotal / 4) - 1;
       const ups = [...copy.abilities.levelUps];
@@ -70,7 +76,7 @@ export function LevelUpPage() {
       state.known = [...state.known, ...newKnown.filter((id) => !state.known.includes(id))];
     }
     return copy;
-  }, [character, classId, ranks, hpRoll, needsAbility, newTotal, abilityPick, newFeatIds, newKnown]);
+  }, [character, classId, ranks, hpRoll, needsAbility, newTotal, abilityPick, newFeatIds, newKnown, compendium]);
 
   const sheetAfter = useMemo(
     () => (afterCharacter && compendium ? deriveSheet(afterCharacter, compendium, houseRules) : undefined),
@@ -84,6 +90,13 @@ export function LevelUpPage() {
 
   const chosenClass = classId ? compendium.get(classId) : undefined;
   const hitDie = chosenClass?.kind === "class" ? chosenClass.data.hitDie : null;
+
+  // Klassenwechsel setzt die Zauberauswahl zurück — sonst landen die Picks
+  // der alten Klasse unsichtbar im spellState der neuen.
+  const chooseClass = (id: string) => {
+    if (id !== classId) setNewKnown([]);
+    setClassId(id);
+  };
 
   const existingClassIds = [...new Set(character.levels.map((l) => l.classId))];
   const baseClasses = entities
@@ -110,6 +123,19 @@ export function LevelUpPage() {
     ? Math.max(-1, ...castingAfter.slots.filter((s) => s.total !== null).map((s) => s.level))
     : -1;
 
+  // Je-Grad-Limit aus der spellsKnown-Zeile durchsetzen (Hexenmeister 4 darf
+  // genau 1 Grad-2-Zauber kennen, nicht drei).
+  const knownAtLevel = (level: number) => {
+    const existing = classId ? (character?.spellState[classId]?.known ?? []) : [];
+    const knownIds = new Set([...existing, ...newKnown]);
+    return spellEntries.filter((e) => e.level === level && knownIds.has(e.spellId)).length;
+  };
+  const canLearnLevel = (level: number) => {
+    const limit = castingAfter?.spellsKnown?.[level];
+    if (limit === undefined || limit === null) return true;
+    return knownAtLevel(level) < limit;
+  };
+
   const rollHp = () => {
     if (!hitDie) return;
     const expr = parseDice(`1d${hitDie}`);
@@ -122,7 +148,6 @@ export function LevelUpPage() {
     void navigate({ to: "/charaktere/$charId", params: { charId } });
   };
 
-  const classSkillIds = new Set(chosenClass?.kind === "class" ? chosenClass.data.classSkillIds : []);
   const allClassSkillIds = new Set<string>();
   for (const id of existingClassIds.concat(classId ? [classId] : [])) {
     const cls = compendium.get(id);
@@ -132,8 +157,11 @@ export function LevelUpPage() {
     .filter((e) => e.kind === "skill" && !e.deletedAt)
     .sort((a, b) => a.name.localeCompare(b.name));
 
+  // Bereits vorhandene Talente ausblenden — außer sie sind stackable (Toughness).
+  const ownedFeatIds = new Set(character.feats.map((f) => f.featId));
   const feats = entities
     .filter((e) => e.kind === "feat" && !e.deletedAt)
+    .filter((e) => e.kind === "feat" && (e.data.stackable || !ownedFeatIds.has(e.id)))
     .filter((e) => !featQuery.trim() || e.name.toLowerCase().includes(featQuery.trim().toLowerCase()))
     .sort((a, b) => a.name.localeCompare(b.name))
     .slice(0, 40);
@@ -162,7 +190,7 @@ export function LevelUpPage() {
           {existingClassIds.map((id) => {
             const cls = compendium.get(id);
             return (
-              <Chip key={id} active={classId === id} onClick={() => setClassId(id)}>
+              <Chip key={id} active={classId === id} onClick={() => chooseClass(id)}>
                 {cls ? displayName(cls) : id}
               </Chip>
             );
@@ -179,7 +207,7 @@ export function LevelUpPage() {
             {baseClasses.map((cls) => (
               <li key={cls.id}>
                 <button
-                  onClick={() => setClassId(cls.id)}
+                  onClick={() => chooseClass(cls.id)}
                   className={`w-full px-2 py-1.5 text-left text-sm hover:bg-slate-800 ${
                     classId === cls.id ? "text-amber-300" : ""
                   }`}
@@ -205,7 +233,9 @@ export function LevelUpPage() {
             min={1}
             max={hitDie ?? 12}
             value={hpRoll ?? ""}
-            onChange={(e) => setHpRoll(Number.isNaN(e.target.valueAsNumber) ? null : e.target.valueAsNumber)}
+            onChange={(e) =>
+              setHpRoll(Number.isNaN(e.target.valueAsNumber) ? null : Math.round(e.target.valueAsNumber))
+            }
             className="w-24 rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-lg font-semibold"
           />
           <GhostButton onClick={rollHp} disabled={!hitDie}>
@@ -240,10 +270,12 @@ export function LevelUpPage() {
         <ul className="max-h-80 divide-y divide-slate-800 overflow-y-auto">
           {skills.map((skill) => {
             const isClass = allClassSkillIds.has(skill.id);
-            const isChosenClass = classSkillIds.has(skill.id);
             const current = ranks?.[skill.id] ?? 0;
             const max = maxRanks(newTotal, isClass);
-            const step = isChosenClass ? 1 : 0.5;
+            // Schrittweite MUSS zur Kostenbasis der Engine passen (Union aller
+            // Klassen, siehe derive.ts skillPointsSpent) — sonst kosten Ränge
+            // alter Klassenfertigkeiten beim klassenfremden Aufstieg die Hälfte.
+            const step = isClass ? 1 : 0.5;
             const setSkill = (value: number) => {
               const next = { ...(ranks ?? {}) };
               if (value <= 0) delete next[skill.id];
@@ -276,7 +308,7 @@ export function LevelUpPage() {
         </ul>
       </Card>
 
-      {featSlotsLeft > 0 && (
+      {(featSlotsLeft > 0 || newFeatIds.length > 0) && (
         <Card>
           <SectionTitle>
             {S.levelUp.feats} ({S.wizard.slotsLeft}: {featSlotsLeft})
@@ -356,7 +388,10 @@ export function LevelUpPage() {
                     </span>
                   </span>
                   {!newKnown.includes(entry.spellId) && (
-                    <GhostButton onClick={() => setNewKnown([...newKnown, entry.spellId])}>
+                    <GhostButton
+                      disabled={!canLearnLevel(entry.level)}
+                      onClick={() => setNewKnown([...newKnown, entry.spellId])}
+                    >
                       {S.actions.add}
                     </GhostButton>
                   )}

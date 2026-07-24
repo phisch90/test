@@ -61,6 +61,23 @@ export const CharacterRepo = {
     return character;
   },
 
+  /**
+   * Mutation gegen den FRISCHEN DB-Stand in einer Transaktion — verhindert
+   * Lost Updates bei schnellen Doppel-Taps (HP −1/−1, Slot-Pips), die sonst
+   * beide denselben veralteten Render-Stand klonen würden.
+   */
+  async mutate(id: string, fn: (c: Character) => void): Promise<void> {
+    await db.transaction("rw", db.characters, async () => {
+      const current = await db.characters.get(id);
+      if (!current || current.deletedAt) return;
+      const copy = structuredClone(current);
+      fn(copy);
+      copy.rev = current.rev + 1;
+      copy.updatedAt = now();
+      await db.characters.put(copy);
+    });
+  },
+
   /** Tombstone, nie physisch löschen (Sync-Seam). */
   async remove(character: Character): Promise<void> {
     await db.characters.put({ ...character, deletedAt: now(), rev: character.rev + 1, updatedAt: now() });
