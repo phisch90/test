@@ -78,7 +78,10 @@ const routeTree = rootRoute.addChildren([
   settingsRoute,
 ]);
 
-const router = createRouter({ routeTree });
+// Auf GitHub Pages liegt die App unter /test/ — der Router muss den
+// Basis-Pfad kennen, sonst matcht keine Route („Not found" trotz Menü).
+const basepath = import.meta.env.BASE_URL.replace(/\/$/, "") || "/";
+const router = createRouter({ routeTree, basepath });
 
 declare module "@tanstack/react-router" {
   interface Register {
