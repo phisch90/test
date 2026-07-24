@@ -3,7 +3,7 @@
  * englische Regelbegriffe wie in der Gruppen-Excel) ist hier einstellbar.
  */
 export const S = {
-  appName: "Codex35",
+  appName: "Chardex35",
 
   nav: {
     characters: "Charaktere",

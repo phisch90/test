@@ -14,8 +14,8 @@ export default defineConfig({
       // "prompt": ein Update zerschießt nie eine laufende Spielsession.
       registerType: "prompt",
       manifest: {
-        name: "Codex35 — D&D 3.5 Charaktere",
-        short_name: "Codex35",
+        name: "Chardex35 — D&D 3.5 Charaktere",
+        short_name: "Chardex35",
         description: "D&D 3.5 Charakter-Manager mit Homebrew-Kompendium",
         lang: "de",
         display: "standalone",
