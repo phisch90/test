@@ -115,8 +115,12 @@ export const characterSchema = z.object({
         prepared: z
           .array(z.object({ spellId: z.string(), slotLevel: z.number().int() }))
           .default([]),
-        /** Index = Zaubergrad. */
-        usedSlots: z.array(z.number().int()).default([]),
+        /**
+         * Index = Zaubergrad. Sparse-Array-Löcher werden beim Serialisieren zu
+         * null (JSON) — beim Parsen tolerant auf 0 normalisieren, damit alte
+         * Exporte immer importierbar bleiben.
+         */
+        usedSlots: z.array(z.preprocess((v) => v ?? 0, z.number().int())).default([]),
       }),
     )
     .default({}),
