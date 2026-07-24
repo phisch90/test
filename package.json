@@ -1,0 +1,17 @@
+{
+  "name": "codex35",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @codex35/web dev",
+    "build": "pnpm --filter @codex35/web build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "etl": "pnpm --filter @codex35/etl build-packs",
+    "etl:verify": "pnpm --filter @codex35/etl verify"
+  }
+}
