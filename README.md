@@ -1,4 +1,4 @@
-# Codex35
+# Chardex35
 
 Ein D&D-3.5-Charakter-Manager als offline-fähige Web-App (PWA) — Charakterbögen mit
 automatischer Regelberechnung, durchsuchbares SRD-Kompendium, Homebrew als Bürger
